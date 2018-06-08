@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/modules/OOP/ArrayVector/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/modules/OOP/ComplexNumber/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/modules/OOP/Employee/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/OOP/TreeNode/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/TextHandling/WordCounter/src/main/java" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -24,6 +24,8 @@ package ru.edu.java.tasks;
  * ПРИМЕЧАНИЕ
  * Задачу можно решать без явной обработки и генерации исключительных ситуаций (Exceptions).
  *
+ * @author Alexander Kharichkin
+ * @author Yuriy Popov
  */
 public interface Employee {
     /**

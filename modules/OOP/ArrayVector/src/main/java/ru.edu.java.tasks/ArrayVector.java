@@ -19,6 +19,9 @@ package ru.edu.java.tasks;
  * ПРИМЕЧАНИЕ<br/>
  * Задачу можно решать без явной обработки и генерации исключительных ситуаций (Exceptions).<br/>
  *
+ * @author Andrey Gavrilov
+ * @author Alexander Kharichkin
+ * @author Alexey Evdokimov
  */
 public interface ArrayVector {
     /**

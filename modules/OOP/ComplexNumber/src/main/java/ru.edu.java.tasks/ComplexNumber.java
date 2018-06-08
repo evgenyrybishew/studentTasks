@@ -40,6 +40,7 @@ import java.util.Arrays;
  *  <a href="http://commons.apache.org/proper/commons-math/userguide/complex.html">Complex in Apache Commons Math</a>.</li>
  *  </ul>
  *
+ * @author Alexey Evdokimov
  */
 public interface ComplexNumber extends Comparable<ComplexNumber>, Cloneable {
 //Getters and setters
