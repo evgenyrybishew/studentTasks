@@ -27,7 +27,7 @@ public class WordCounterImp implements WordCounter {
     @Override
     public Map<String, Long> getWordCounts() throws IllegalStateException {
 
-        if(this.text == null)
+        if (this.text == null)
             return null;
 
         if (counter == null)
@@ -36,17 +36,18 @@ public class WordCounterImp implements WordCounter {
         Pattern pattern = Pattern.compile("(?U)(\\w*)");
         Matcher matcher = pattern.matcher(this.text);
 
-        while(matcher.find()) {
-            if (matcher.group().length() <= 2)
-                continue;
+        String[] words = this.text.split("(?U)\\s*(\\s |,|!|\\.|(&gt;)|(&lt;)|\\W)\\s*");
 
-            String word = matcher.group().toLowerCase();
+        for (String word : words) {
+            word = word.toLowerCase();
+            if ((word.matches("(?U)(\\w+)"))) {
 
-            if (this.counter.containsKey(word)) {
-                long value = this.counter.get(word);
-                this.counter.put(word, ++value);
-            } else
-                this.counter.put(word, 1l);
+                if (this.counter.containsKey(word)) {
+                    long value = this.counter.get(word);
+                    this.counter.put(word, ++value);
+                } else
+                    this.counter.put(word, 1l);
+            }
         }
         return this.counter;
     }

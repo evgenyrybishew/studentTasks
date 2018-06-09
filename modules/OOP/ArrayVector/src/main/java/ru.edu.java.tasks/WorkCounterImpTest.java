@@ -51,6 +51,15 @@ public class WorkCounterImpTest {
         reg.put("123", 1l);
         reg.put("green", 2l);
         reg.put("yellow", 1l);
+        reg.put("4or", 1l);
+        reg.put("123", 1l);
+        reg.put("2", 1l);
+        reg.put("i",2l);
+        reg.put("a", 1l);
+        reg.put("3", 1l);
+        reg.put("1", 1l);
+        reg.put("r", 1l);
+
 
         Set<Map.Entry<String, Long>> set = counter.getWordCounts().entrySet();
         Set<Map.Entry<String, Long>> regSet = reg.entrySet();

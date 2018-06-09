@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e2d8f48-c881-4860-b8b2-696a0561e0cc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/WorkCounterImpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WordCounterImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/studentTasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/studentTasks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/WorkCounterImpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/WorkCounterImpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WordCounterImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WordCounterImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ru/edu/java/tasks/WordCounterImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ru/edu/java/tasks/WordCounterImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ru/edu/java/tasks/WorkCounterImpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ru/edu/java/tasks/WorkCounterImpTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +29,8 @@
       <file leaf-file-name="WordCounterImp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WordCounterImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+            <state relative-caret-position="630">
+              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#318#319#0" expanded="true" />
@@ -45,8 +47,8 @@
       <file leaf-file-name="WorkCounterImpTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/WorkCounterImpTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+            <state relative-caret-position="480">
+              <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -424,44 +426,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528485798687</updated>
-      <workItem from="1528485800446" duration="10962000" />
+      <workItem from="1528485800446" duration="11974000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 00h 44m 08s.xml">
+    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 01h 56m 09s.xml">
       <configuration name="WorkCounterImpTest.getWordCounts" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 01h 35m 09s.xml">
+    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 01h 57m 51s.xml">
       <configuration name="WorkCounterImpTest.getWordCounts" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 01h 36m 47s.xml">
+    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 01h 58m 31s.xml">
       <configuration name="WorkCounterImpTest.getWordCounts" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 01h 37m 03s.xml">
+    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 01h 59m 10s.xml">
       <configuration name="WorkCounterImpTest.getWordCounts" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 01h 37m 16s.xml">
+    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 16h 18m 32s.xml">
       <configuration name="WorkCounterImpTest.getWordCounts" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 01h 39m 18s.xml">
+    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 16h 18m 47s.xml">
       <configuration name="WorkCounterImpTest.getWordCounts" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 01h 39m 26s.xml">
+    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 16h 19m 13s.xml">
       <configuration name="WorkCounterImpTest.getWordCounts" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 01h 39m 48s.xml">
+    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 16h 19m 21s.xml">
       <configuration name="WorkCounterImpTest.getWordCounts" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 01h 40m 04s.xml">
+    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 16h 19m 29s.xml">
       <configuration name="WorkCounterImpTest.getWordCounts" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 01h 40m 14s.xml">
+    <history-entry file="WorkCounterImpTest_getWordCounts - 2018.06.09 at 16h 19m 42s.xml">
       <configuration name="WorkCounterImpTest.getWordCounts" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10962000" />
+    <option name="totallyTimeSpent" value="11974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1872" y="-352" width="1755" height="1102" extended-state="0" />
@@ -478,7 +480,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299389" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3299389" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24985406" />
@@ -508,7 +510,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/WorkCounterImpTest.java</url>
-          <line>86</line>
+          <line>95</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -532,8 +534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WordCounterImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+        <state relative-caret-position="630">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#318#319#0" expanded="true" />
@@ -548,8 +550,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/WorkCounterImpTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+        <state relative-caret-position="480">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
