@@ -1,10 +1,7 @@
 package ru.edu.java.tasks;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.*;
+
 
 public class WordCounterImp implements WordCounter {
 
@@ -31,10 +28,7 @@ public class WordCounterImp implements WordCounter {
             return null;
 
         if (counter == null)
-            this.counter = new HashMap<String, Long>();
-
-        Pattern pattern = Pattern.compile("(?U)(\\w*)");
-        Matcher matcher = pattern.matcher(this.text);
+            this.counter = new HashMap<>();
 
         String[] words = this.text.split("(?U)\\s*(\\s |,|!|\\.|(&gt;)|(&lt;)|\\W)\\s*");
 
@@ -55,11 +49,29 @@ public class WordCounterImp implements WordCounter {
 
     @Override
     public List<Map.Entry<String, Long>> getWordCountsSorted() throws IllegalStateException {
-        return null;
+
+        return this.sortWordCounts(this.getWordCounts());
     }
 
     @Override
     public List<Map.Entry<String, Long>> sortWordCounts(Map<String, Long> orig) {
-        return null;
+
+        if (orig == null)
+            return null;
+
+        List<Map.Entry<String, Long>> temp = new ArrayList<>(orig.entrySet());
+
+        Collections.sort(temp, new Comparator<Map.Entry<String, Long>>() {
+            @Override
+            public int compare(Map.Entry<String, Long> o1, Map.Entry<String, Long> o2) {
+
+                if (Long.compare(o1.getValue(), o2.getValue()) != 0)
+                    return Long.compare(o1.getValue(), o2.getValue()) * (-1);
+
+                return o1.getKey().compareTo(o2.getKey());
+            }
+        });
+
+        return temp;
     }
 }

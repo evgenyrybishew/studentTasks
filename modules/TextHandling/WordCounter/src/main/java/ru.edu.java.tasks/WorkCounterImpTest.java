@@ -2,12 +2,7 @@ package ru.edu.java.tasks;
 
 import org.junit.Assert;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.*;
 
 public class WorkCounterImpTest {
 
@@ -20,7 +15,7 @@ public class WorkCounterImpTest {
     }
 
     @org.junit.Test
-    public void setGetText() {
+    public void setGetTest() {
         WordCounter text = new WordCounterImp();
         text.setText("This version of the GNU Lesser General Public License incorporates\n" +
                 "the terms and conditions of version 3 of the GNU General Public\n" +
@@ -33,7 +28,7 @@ public class WorkCounterImpTest {
     }
 
     @org.junit.Test
-    public void getWordCounts() {
+    public void getWordCountsTest() {
 
         WordCounter counter = new WordCounterImp();
         counter.setText("Hello    world 4or  &gt;    r  red yellow green #FFF   &lt;  1. \"123 \", \"Mother\" 2. \"мыла\", 3. <i>a<i>" +
@@ -54,7 +49,7 @@ public class WorkCounterImpTest {
         reg.put("4or", 1l);
         reg.put("123", 1l);
         reg.put("2", 1l);
-        reg.put("i",2l);
+        reg.put("i", 2l);
         reg.put("a", 1l);
         reg.put("3", 1l);
         reg.put("1", 1l);
@@ -68,39 +63,50 @@ public class WorkCounterImpTest {
     }
 
     @org.junit.Test
-    public void getWordCountsSorted() {
+    public void getWordCountsSortedTest() {
+
+        WordCounter counter = new WordCounterImp();
+        counter.setText("apple zero zero bus apple grape nut zero grape");
+
+        HashMap<String, Long> map = new HashMap<>();
+
+        map.put("apple", 2l);
+        map.put("zero", 3l);
+        map.put("bus", 1l);
+        map.put("grape", 2l);
+        map.put("nut", 1l);
+
+        List<Map.Entry<String, Long>> test = counter.getWordCountsSorted();
+
+        Assert.assertTrue(test.get(0).getKey().equals("zero"));
+        Assert.assertTrue(test.get(1).getKey().equals("apple"));
+        Assert.assertTrue(test.get(2).getKey().equals("grape"));
+        Assert.assertTrue(test.get(3).getKey().equals("bus"));
+        Assert.assertTrue(test.get(4).getKey().equals("nut"));
+
+
     }
 
     @org.junit.Test
-    public void sortWordCounts() {
+    public void sortWordCountsTest() {
+        HashMap<String, Long> map = new HashMap<>();
+
+        map.put("apple", 2l);
+        map.put("zero", 3l);
+        map.put("bus", 1l);
+        map.put("grape", 2l);
+        map.put("nut", 1l);
+
+        WordCounter counter = new WordCounterImp();
+
+        List<Map.Entry<String, Long>> test = counter.sortWordCounts(map);
+
+        Assert.assertTrue(test.get(0).getKey().equals("zero"));
+        Assert.assertTrue(test.get(1).getKey().equals("apple"));
+        Assert.assertTrue(test.get(2).getKey().equals("grape"));
+        Assert.assertTrue(test.get(3).getKey().equals("bus"));
+        Assert.assertTrue(test.get(4).getKey().equals("nut"));
+
+
     }
-
-
-    public static void main(String[] args) {
-//        Pattern pattern = Pattern.compile("([a-z])");
-//
-//        String[] words = pattern.split("Hello    world 4or  &gt;   r  red yellow green #FFF   &lt;  1. \"123 \", \"Mother\" 2. \"мылы\", 3. <i>a<i>" +
-//                "world mother hello green мыла");
-//
-//
-//
-//        for(String word:words)
-//            System.out.println(word);
-
-
-        String input = "Hello    world 4or  &gt;   r  red yellow green #FFF   &lt;  1. \"123 \", \"Mother\" 2. \"мылы\", 3. <i>a<i>" +
-                "world mother hello green мыла жава";
-
-        Pattern pattern = Pattern.compile("(?U)(\\w*)");
-        Matcher matcher = pattern.matcher(input);
-        while (matcher.find()) {
-
-            if (matcher.group().length() <= 2)
-                continue;
-
-            System.out.println(matcher.group());
-        }
-    }
-
-
 }
