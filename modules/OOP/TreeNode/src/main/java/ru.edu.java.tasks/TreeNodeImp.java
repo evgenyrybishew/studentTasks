@@ -6,30 +6,34 @@ import java.util.Set;
 
 public class TreeNodeImp implements TreeNode {
 
-    TreeNode root;
-    Set<TreeNode>children;
-    Object data;
+    private TreeNode root;
+    private Set<TreeNode> children;
+    private Object data;
+    private boolean isExpanded;
 
 
     public TreeNodeImp(Object data) {
         this.root = null;
         this.children = new HashSet<>();
         this.data = data;
+        isExpanded = false;
     }
 
     public TreeNodeImp() {
         this.root = null;
         this.children = new HashSet<>();
         this.data = null;
+        isExpanded = false;
     }
 
 
-    public TreeNodeImp(Object data, TreeNode... nodes){
+    public TreeNodeImp(Object data, TreeNode... nodes) {
         this.root = null;
         this.children = new HashSet<>();
         this.data = data;
-        for(TreeNode node : nodes)
+        for (TreeNode node : nodes)
             this.children.add(node);
+        isExpanded = false;
     }
 
 
@@ -40,10 +44,10 @@ public class TreeNodeImp implements TreeNode {
 
     @Override
     public void setParent(TreeNode parent) {
-        if(parent == this)
+        if (parent == this)
             return;
 
-        if(parent == this.getParent())
+        if (parent == this.getParent())
             return;
 
         this.root = parent;
@@ -52,7 +56,7 @@ public class TreeNodeImp implements TreeNode {
 
     @Override
     public TreeNode getRoot() {
-        if(this.root == null)
+        if (this.root == null)
             return this;
 
         return this.root.getRoot();
@@ -83,7 +87,7 @@ public class TreeNodeImp implements TreeNode {
     @Override
     public boolean removeChild(TreeNode child) {
 
-        if(this.children.contains(child)){
+        if (this.children.contains(child)) {
             child.setParent(null);
             return this.children.remove(child);
         }
@@ -92,12 +96,17 @@ public class TreeNodeImp implements TreeNode {
 
     @Override
     public boolean isExpanded() {
-        return false;
+        return this.isExpanded;
     }
 
     @Override
     public void setExpanded(boolean expanded) {
 
+        this.isExpanded = expanded;
+        if (this.children.size() != 0)
+
+            for (TreeNode child : this.children)
+                child.setExpanded(expanded);
     }
 
     @Override
@@ -107,21 +116,68 @@ public class TreeNodeImp implements TreeNode {
 
     @Override
     public void setData(Object data) {
-
+        this.data = data;
     }
 
     @Override
     public String getTreePath() {
-        return null;
+
+        String path;
+        if (this.data == null)
+            path = "empty";
+        else
+            path = this.data.toString();
+
+        if (this.root != null)
+            return root.getTreePath() + "->" + path;
+
+        return path;
     }
 
     @Override
     public TreeNode findParent(Object data) {
-        return null;
+
+
+        if (data == null && this.data == null)
+            return this;
+
+
+        if (this.data.equals(data))
+            return this;
+
+        return this.root.findParent(data);
     }
 
     @Override
     public TreeNode findChild(Object data) {
-        return null;
+
+        TreeNode temp = null;
+
+        if (this.children != null) {
+
+            for (TreeNode tree : this.children) {
+                if (temp != null)
+                    break;
+                else if ((data == null && tree.getData() == null) ||
+                        (data != null && tree.getData() != null
+                                && tree.getData().equals(data)))
+
+                    temp = tree;
+                else
+                    temp = null;
+
+            }
+
+            if (temp == null) {
+                for (TreeNode t : this.children) {
+                    if (temp != null)
+                        break;
+                    temp = t.findChild(data);
+                }
+            }
+        }
+
+        return temp;
     }
+
 }
