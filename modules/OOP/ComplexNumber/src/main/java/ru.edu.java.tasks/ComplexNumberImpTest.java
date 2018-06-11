@@ -13,22 +13,22 @@ public class ComplexNumberImpTest {
 
 
     @Test
-    public void getRe() {
-        Assert.assertEquals(-5, number.getRe(), 0.01);
+    public void getReTest() {
+        Assert.assertEquals(-5, number.getRe(), 0.1);
     }
 
     @Test
-    public void getIm() {
-        Assert.assertEquals(2, number.getIm(), 0.01);
+    public void getImTest() {
+        Assert.assertEquals(2, number.getIm(), 0.1);
     }
 
     @Test
-    public void isReal() {
+    public void isRealTest() {
         Assert.assertFalse(number.isReal());
     }
 
     @Test
-    public void set() {
+    public void setTest() {
         number.set(4, 5);
         Assert.assertEquals(4, number.getRe(), 0.01);
         Assert.assertEquals(5, number.getIm(), 0.01);

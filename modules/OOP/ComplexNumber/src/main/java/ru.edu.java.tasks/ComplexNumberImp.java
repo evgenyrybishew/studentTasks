@@ -99,8 +99,15 @@ public class ComplexNumberImp implements ComplexNumber {
         if(!numbers[1].contains("i") && !numbers[1].equals("0"))
             throw new NumberFormatException(value);
 
-        if(numbers[1].length() <= 1)
-            im = Double.parseDouble(numbers[1].replaceAll("i", ""));
+        if(numbers[1].length() == 2){
+            if(numbers[1].charAt(0) == '+' || numbers[1].charAt(0) == '-')
+                im = Double.parseDouble(numbers[1].replaceAll("i", "1"));
+            else
+                im = Double.parseDouble(numbers[1].replaceAll("i", ""));
+        }
+        else if(numbers[1].length() == 1){
+            im = Double.parseDouble(numbers[1].replaceAll("i", "1"));
+        }
         else
             im = Double.parseDouble(numbers[1].substring(0, numbers[1].length() - 1));
     }
