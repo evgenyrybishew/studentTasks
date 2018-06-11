@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e2d8f48-c881-4860-b8b2-696a0561e0cc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImpTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/ru/edu/java/tasks/ComplexNumberImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ru/edu/java/tasks/ComplexNumberImp.class" afterDir="false" />
@@ -17,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ComplexNumberImpTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ComplexNumberImpTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImpTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="311">
+              <caret line="183" column="41" selection-start-line="183" selection-start-column="41" selection-end-line="183" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComplexNumberImp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ComplexNumberImp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="108" column="69" selection-start-line="108" selection-start-column="69" selection-end-line="108" selection-end-column="69" />
+            <state relative-caret-position="2100">
+              <caret line="144" column="20" lean-forward="true" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="20" />
               <folding>
                 <element signature="e#384#385#0" expanded="true" />
                 <element signature="e#415#416#0" expanded="true" />
@@ -71,8 +70,8 @@
         <option value="$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImp.java" />
         <option value="$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/ArrayVectorImp.java" />
         <option value="$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/ArrayVectorImpTest.java" />
-        <option value="$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImpTest.java" />
         <option value="$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImp.java" />
+        <option value="$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImpTest.java" />
       </list>
     </option>
   </component>
@@ -236,103 +235,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ComplexNumberImpTest.set1">
+  <component name="RunManager" selected="JUnit.ComplexNumberImpTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ArrayVectorImpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studentTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.edu.java.tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
-      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.ArrayVectorImpTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ArrayVectorImpTest.getNorm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studentTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.edu.java.tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
-      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.ArrayVectorImpTest" />
-      <option name="METHOD_NAME" value="getNorm" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ArrayVectorImpTest.scalarMult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studentTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.edu.java.tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
-      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.ArrayVectorImpTest" />
-      <option name="METHOD_NAME" value="scalarMult" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ArrayVectorImpTest.sum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studentTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.edu.java.tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
-      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.ArrayVectorImpTest" />
-      <option name="METHOD_NAME" value="sum" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ComplexNumberImpTest.set1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComplexNumberImpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studentTasks" />
       <extension name="coverage">
         <pattern>
@@ -344,7 +251,99 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
       <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.ComplexNumberImpTest" />
-      <option name="METHOD_NAME" value="set1" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ComplexNumberImpTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studentTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.edu.java.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
+      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.ComplexNumberImpTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ComplexNumberImpTest.multiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studentTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.edu.java.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
+      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.ComplexNumberImpTest" />
+      <option name="METHOD_NAME" value="multiply" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ComplexNumberImpTest.negate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studentTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.edu.java.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
+      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.ComplexNumberImpTest" />
+      <option name="METHOD_NAME" value="negate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ComplexNumberImpTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studentTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.edu.java.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
+      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.ComplexNumberImpTest" />
+      <option name="METHOD_NAME" value="sort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -394,19 +393,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ArrayVectorImpTest.sum" />
-      <item itemvalue="JUnit.ArrayVectorImpTest.scalarMult" />
-      <item itemvalue="JUnit.ArrayVectorImpTest.getNorm" />
-      <item itemvalue="JUnit.ArrayVectorImpTest" />
-      <item itemvalue="JUnit.ComplexNumberImpTest.set1" />
+      <item itemvalue="JUnit.ComplexNumberImpTest.add" />
+      <item itemvalue="JUnit.ComplexNumberImpTest.sort" />
+      <item itemvalue="JUnit.ComplexNumberImpTest.negate" />
+      <item itemvalue="JUnit.ComplexNumberImpTest.multiply" />
+      <item itemvalue="JUnit.ComplexNumberImpTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ComplexNumberImpTest.set1" />
-        <item itemvalue="JUnit.ArrayVectorImpTest" />
-        <item itemvalue="JUnit.ArrayVectorImpTest.getNorm" />
-        <item itemvalue="JUnit.ArrayVectorImpTest.scalarMult" />
-        <item itemvalue="JUnit.ArrayVectorImpTest.sum" />
+        <item itemvalue="JUnit.ComplexNumberImpTest" />
+        <item itemvalue="JUnit.ComplexNumberImpTest.multiply" />
+        <item itemvalue="JUnit.ComplexNumberImpTest.add" />
+        <item itemvalue="JUnit.ComplexNumberImpTest.negate" />
+        <item itemvalue="JUnit.ComplexNumberImpTest.sort" />
       </list>
     </recent_temporary>
   </component>
@@ -421,44 +420,44 @@
       <option name="presentableId" value="Default" />
       <updated>1528485798687</updated>
       <workItem from="1528485800446" duration="25128000" />
-      <workItem from="1528576340249" duration="13466000" />
+      <workItem from="1528576340249" duration="15592000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ComplexNumberImpTest_set1 - 2018.06.11 at 13h 19m 48s.xml">
-      <configuration name="ComplexNumberImpTest.set1" configurationId="JUnit" />
+    <history-entry file="ComplexNumberImpTest_clone1 - 2018.06.11 at 14h 09m 24s.xml">
+      <configuration name="ComplexNumberImpTest.clone1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComplexNumberImpTest_set1 - 2018.06.11 at 13h 20m 11s.xml">
-      <configuration name="ComplexNumberImpTest.set1" configurationId="JUnit" />
+    <history-entry file="ComplexNumberImpTest_sort - 2018.06.11 at 14h 09m 40s.xml">
+      <configuration name="ComplexNumberImpTest.sort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComplexNumberImpTest_set1 - 2018.06.11 at 13h 21m 12s.xml">
-      <configuration name="ComplexNumberImpTest.set1" configurationId="JUnit" />
+    <history-entry file="ComplexNumberImpTest_negate - 2018.06.11 at 14h 10m 05s.xml">
+      <configuration name="ComplexNumberImpTest.negate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComplexNumberImpTest_set1 - 2018.06.11 at 13h 21m 18s.xml">
-      <configuration name="ComplexNumberImpTest.set1" configurationId="JUnit" />
+    <history-entry file="ComplexNumberImpTest_negate - 2018.06.11 at 14h 14m 35s.xml">
+      <configuration name="ComplexNumberImpTest.negate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComplexNumberImpTest_set1 - 2018.06.11 at 13h 24m 10s.xml">
-      <configuration name="ComplexNumberImpTest.set1" configurationId="JUnit" />
+    <history-entry file="ComplexNumberImpTest_negate - 2018.06.11 at 14h 16m 25s.xml">
+      <configuration name="ComplexNumberImpTest.negate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComplexNumberImpTest_set1 - 2018.06.11 at 13h 24m 15s.xml">
-      <configuration name="ComplexNumberImpTest.set1" configurationId="JUnit" />
+    <history-entry file="ComplexNumberImpTest_negate - 2018.06.11 at 14h 16m 59s.xml">
+      <configuration name="ComplexNumberImpTest.negate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComplexNumberImpTest_set1 - 2018.06.11 at 13h 27m 22s.xml">
-      <configuration name="ComplexNumberImpTest.set1" configurationId="JUnit" />
+    <history-entry file="ComplexNumberImpTest_add - 2018.06.11 at 14h 20m 05s.xml">
+      <configuration name="ComplexNumberImpTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComplexNumberImpTest_set1 - 2018.06.11 at 13h 27m 29s.xml">
-      <configuration name="ComplexNumberImpTest.set1" configurationId="JUnit" />
+    <history-entry file="ComplexNumberImpTest_add - 2018.06.11 at 14h 20m 25s.xml">
+      <configuration name="ComplexNumberImpTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComplexNumberImpTest_set1 - 2018.06.11 at 13h 46m 04s.xml">
-      <configuration name="ComplexNumberImpTest.set1" configurationId="JUnit" />
+    <history-entry file="ComplexNumberImpTest_add - 2018.06.11 at 14h 20m 50s.xml">
+      <configuration name="ComplexNumberImpTest.add" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComplexNumberImpTest_set1 - 2018.06.11 at 13h 47m 11s.xml">
-      <configuration name="ComplexNumberImpTest.set1" configurationId="JUnit" />
+    <history-entry file="ComplexNumberImpTest_multiply - 2018.06.11 at 14h 23m 25s.xml">
+      <configuration name="ComplexNumberImpTest.multiply" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38594000" />
+    <option name="totallyTimeSpent" value="40720000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="738" extended-state="0" />
@@ -473,9 +472,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27993527" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29935277" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.058252428" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1197411" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34975767" />
@@ -484,7 +483,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.41100323" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41100323" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -504,28 +503,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImpTest.java</url>
+          <url />
           <line>17</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImpTest.java</url>
+          <url />
           <line>214</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImp.java</url>
-          <line>96</line>
+          <url />
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImp.java</url>
-          <line>112</line>
-          <properties />
-          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="30" />
@@ -672,20 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="108" column="69" selection-start-line="108" selection-start-column="69" selection-end-line="108" selection-end-column="69" />
+        <state relative-caret-position="2100">
+          <caret line="144" column="20" lean-forward="true" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="20" />
           <folding>
             <element signature="e#384#385#0" expanded="true" />
             <element signature="e#415#416#0" expanded="true" />
@@ -693,6 +676,16 @@
             <element signature="e#555#556#0" expanded="true" />
             <element signature="e#6227#6228#0" expanded="true" />
             <element signature="e#6261#6262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="183" column="41" selection-start-line="183" selection-start-column="41" selection-end-line="183" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

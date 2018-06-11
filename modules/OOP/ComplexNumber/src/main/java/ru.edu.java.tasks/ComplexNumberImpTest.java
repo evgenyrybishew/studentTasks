@@ -3,48 +3,39 @@ package ru.edu.java.tasks;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.lang.reflect.Field;
+
 import static org.junit.Assert.*;
 
 public class ComplexNumberImpTest {
 
 
-    ComplexNumber number = new ComplexNumberImp("-5+2i");
-
-
-
     @Test
-    public void getReTest() {
-        Assert.assertEquals(-5, number.getRe(), 0.1);
+    public void setGetTest() {
+        ComplexNumber number = new ComplexNumberImp();
+        number.set(3, 5);
+        Assert.assertEquals(3, number.getRe(), 0.1);
+        Assert.assertEquals(5, number.getIm(), 0.1);
     }
 
-    @Test
-    public void getImTest() {
-        Assert.assertEquals(2, number.getIm(), 0.1);
-    }
 
     @Test
     public void isRealTest() {
+        ComplexNumber number = new ComplexNumberImp(3, 5);
         Assert.assertFalse(number.isReal());
-    }
-
-    @Test
-    public void setTest() {
-        number.set(4, 5);
-        Assert.assertEquals(4, number.getRe(), 0.01);
-        Assert.assertEquals(5, number.getIm(), 0.01);
-        number.set(4, 0);
+        number = new ComplexNumberImp(5, 0);
         Assert.assertTrue(number.isReal());
-
-
     }
 
+
     @Test
-    public void set1() {
+    public void setStringTest() {
+        ComplexNumber number = new ComplexNumberImp();
         String[] str = {"-5+2i", "1+i", "+4-i", "i", "-3i", "3", "+5-4i", "4i"};
 
         double[][] assertArray = {{-5, 2}, {1, 1}, {4, -1}, {0, 1}, {0, -3}, {3, 0}, {5, -4}, {0, 4}};
 
-        for(int i = 0; i < str.length; i++){
+        for (int i = 0; i < str.length; i++) {
             number.set(str[i]);
             Assert.assertEquals(assertArray[i][0], number.getRe(), 0.1);
             Assert.assertEquals(assertArray[i][1], number.getIm(), 0.1);
@@ -53,55 +44,59 @@ public class ComplexNumberImpTest {
 
 
     @Test
-    public void set2() {
+    public void setStringTest2() {
+        ComplexNumber number = new ComplexNumberImp();
         try {
             String str = "1+2*i";
             number.set(str);
             fail();
-        }catch (NumberFormatException e){
+        } catch (NumberFormatException e) {
             Assert.assertNotNull(e);
         }
     }
 
     @Test
-    public void set3() {
+    public void setStringTest3() {
+        ComplexNumber number = new ComplexNumberImp();
         try {
             String str = "2+2";
             number.set(str);
             fail();
-        }catch (NumberFormatException e){
+        } catch (NumberFormatException e) {
             Assert.assertNotNull(e);
         }
     }
 
 
     @Test
-    public void set4() {
+    public void setStringTest4() {
+        ComplexNumber number = new ComplexNumberImp();
         try {
             String str = "j";
             number.set(str);
             fail();
-        }catch (NumberFormatException e){
+        } catch (NumberFormatException e) {
             Assert.assertNotNull(e);
         }
     }
 
     @Test
-    public void copy() {
+    public void copyTest() {
+        ComplexNumber number = new ComplexNumberImp();
         ComplexNumber copy = number.copy();
         Assert.assertFalse(copy == number);
     }
 
     @Test
-    public void clone1() throws CloneNotSupportedException {
-
-            ComplexNumber copy = number.clone();
-            Assert.assertFalse(copy == number);
+    public void cloneTest() throws CloneNotSupportedException {
+        ComplexNumber number = new ComplexNumberImp();
+        ComplexNumber copy = number.clone();
+        Assert.assertFalse(copy == number);
 
     }
 
     @Test
-    public void compareTo() {
+    public void compareToTest() {
 
         ComplexNumber a = new ComplexNumberImp("+4-i");
         ComplexNumber b = new ComplexNumberImp("1+i");
@@ -112,50 +107,80 @@ public class ComplexNumberImpTest {
     }
 
     @Test
-    public void sort() {
+    public void sortTest() {
+        ComplexNumber number = new ComplexNumberImp();
         String[] str = {"-5+2i", "1+i", "+4-i", "i", "-3i", "3"};
-        String[] str1 = {"i", "1+i",  "-3i", "3",  "+4-i","-5+2i"};
+        String[] str1 = {"i", "1+i", "-3i", "3", "+4-i", "-5+2i"};
         ComplexNumber[] array = new ComplexNumberImp[str.length];
         ComplexNumber[] array1 = new ComplexNumberImp[str1.length];
 
-        for(int i = 0; i < array.length; i++)
+        for (int i = 0; i < array.length; i++)
             array[i] = new ComplexNumberImp(str[i]);
-        for(int i = 0; i < array1.length; i++)
+        for (int i = 0; i < array1.length; i++)
             array1[i] = new ComplexNumberImp(str1[i]);
 
         number.sort(array);
 
-       for(int i = 0; i < array1.length; i++){
-           Assert.assertEquals(array[i].getRe(), array1[i].getRe(), 0.1);
-           Assert.assertEquals(array[i].getIm(), array1[i].getIm(), 0.1);
+        for (int i = 0; i < array1.length; i++) {
+            Assert.assertEquals(array[i].getRe(), array1[i].getRe(), 0.1);
+            Assert.assertEquals(array[i].getIm(), array1[i].getIm(), 0.1);
 
-       }
+        }
 
     }
 
     @Test
-    public void negate() {
+    public void negate() throws NoSuchFieldException, IllegalAccessException {
+        ComplexNumber number = new ComplexNumberImp(3, 5);
         number.negate();
-        Assert.assertTrue(number.compareTo(new ComplexNumberImp(5, -2)) == 0);
+
+        Field reField = number.getClass().getDeclaredField("re");
+        Field imField = number.getClass().getDeclaredField("im");
+        reField.setAccessible(true);
+        imField.setAccessible(true);
+
+        double re = (double) reField.get(number);
+        double im = (double) imField.get(number);
+
+        Assert.assertEquals(re, -3, 0.1);
+        Assert.assertEquals(im, -5, 0.1);
     }
 
     @Test
-    public void add() {
+    public void add() throws NoSuchFieldException, IllegalAccessException {
+        ComplexNumber number = new ComplexNumberImp(-5, 2);
+        ComplexNumber other = new ComplexNumberImp(10, -3);
+        number.add(other);
 
-        ComplexNumber sum = number.add(new ComplexNumberImp(10, -3));
-        Assert.assertTrue(sum.compareTo(new ComplexNumberImp(5, -1)) == 0);
+        Field reField = number.getClass().getDeclaredField("re");
+        Field imField = number.getClass().getDeclaredField("im");
+        reField.setAccessible(true);
+        imField.setAccessible(true);
 
-        sum = new ComplexNumberImp(17, 24).add(new ComplexNumberImp(-31, -7));
-        Assert.assertTrue(sum.compareTo(new ComplexNumberImp(14, 17)) == 0);
+        double re = (double) reField.get(number);
+        double im = (double) imField.get(number);
+
+        Assert.assertEquals(re, 5, 0.1);
+        Assert.assertEquals(im, -1, 0.1);
 
     }
 
     @Test
-    public void multiply() {
+    public void multiply() throws NoSuchFieldException, IllegalAccessException {
 
-        ComplexNumber mult = new ComplexNumberImp(5,4).multiply(new ComplexNumberImp(3, 7));
-        Assert.assertTrue(mult.compareTo(new ComplexNumberImp(-13, 47)) == 0);
-        mult = new ComplexNumberImp(-3,0).multiply(new ComplexNumberImp(3, -2));
-        Assert.assertTrue(mult.compareTo(new ComplexNumberImp(-9, 6)) == 0);
+        ComplexNumber number = new ComplexNumberImp(5, 4);
+        ComplexNumber other = new ComplexNumberImp(3, 7);
+        number.multiply(other);
+
+        Field reField = number.getClass().getDeclaredField("re");
+        Field imField = number.getClass().getDeclaredField("im");
+        reField.setAccessible(true);
+        imField.setAccessible(true);
+
+        double re = (double) reField.get(number);
+        double im = (double) imField.get(number);
+
+        Assert.assertEquals(re, -13, 0.1);
+        Assert.assertEquals(im, 47, 0.1);
     }
 }
