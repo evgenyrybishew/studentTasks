@@ -53,6 +53,20 @@ public class WordCounterImp implements WordCounter {
         return this.sortWordCounts(this.getWordCounts());
     }
 
+
+    private static boolean isDigit(String number){
+
+        try{
+            Integer.valueOf(number);
+            return true;
+        }catch (Exception e){
+            return false;
+        }
+
+    }
+
+
+
     @Override
     public List<Map.Entry<String, Long>> sortWordCounts(Map<String, Long> orig) {
 
@@ -67,6 +81,14 @@ public class WordCounterImp implements WordCounter {
 
                 if (Long.compare(o1.getValue(), o2.getValue()) != 0)
                     return Long.compare(o1.getValue(), o2.getValue()) * (-1);
+
+                else if(isDigit(o1.getKey()) && isDigit(o2.getKey())){
+                    return Integer.compare(Integer.valueOf(o1.getKey()), Integer.valueOf(o2.getKey()));
+                }
+
+                else if(isDigit(o1.getKey()) || isDigit(o2.getKey())){
+                    return Integer.compare(o1.getKey().length(), o2.getKey().length());
+                }
 
                 return o1.getKey().compareTo(o2.getKey());
             }
