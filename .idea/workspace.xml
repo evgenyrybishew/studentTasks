@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7e2d8f48-c881-4860-b8b2-696a0561e0cc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WordCounterImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WordCounterImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WorkCounterImpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WorkCounterImpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ru/edu/java/tasks/TreeNodeImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ru/edu/java/tasks/TreeNodeImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ru/edu/java/tasks/TreeNodeImpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ru/edu/java/tasks/TreeNodeImpTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ru/edu/java/tasks/WorkCounterImpTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/ru/edu/java/tasks/WorkCounterImpTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,23 +18,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WordCounterImp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WordCounterImp.java">
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="89" column="26" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
+            <state relative-caret-position="412">
+              <caret line="105" column="81" lean-forward="true" selection-start-line="101" selection-start-column="7" selection-end-line="105" selection-end-column="81" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkCounterImpTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WorkCounterImpTest.java">
+      <file leaf-file-name="TreeNodeImp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="97" column="65" lean-forward="true" selection-start-line="97" selection-start-column="65" selection-end-line="97" selection-end-column="65" />
+            <state relative-caret-position="135">
+              <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2345#2346#0" expanded="true" />
+                <element signature="e#2377#2378#0" expanded="true" />
+                <element signature="e#2431#2432#0" expanded="true" />
+                <element signature="e#2463#2464#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeNodeImpTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImpTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="224" column="62" selection-start-line="224" selection-start-column="62" selection-end-line="224" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -56,8 +72,6 @@
         <option value="$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WorkCounterImp.java" />
         <option value="$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/WorkCounterImpTest.java" />
         <option value="$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNode.java" />
-        <option value="$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImpTest.java" />
-        <option value="$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImp.java" />
         <option value="$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/ArrayVectorImp.java" />
         <option value="$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/ArrayVectorImpTest.java" />
         <option value="$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImp.java" />
@@ -66,6 +80,8 @@
         <option value="$PROJECT_DIR$/modules/OOP/Employee/src/main/java/ru.edu.java.tasks/EmployeeImplTest.java" />
         <option value="$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WordCounterImp.java" />
         <option value="$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WorkCounterImpTest.java" />
+        <option value="$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImpTest.java" />
+        <option value="$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImp.java" />
       </list>
     </option>
   </component>
@@ -79,10 +95,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1852" />
-    <option name="y" value="-331" />
-    <option name="width" value="1780" />
-    <option name="height" value="1007" />
+    <option name="x" value="-1834" />
+    <option name="y" value="-247" />
+    <option name="width" value="1792" />
+    <option name="height" value="931" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -108,29 +124,29 @@
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="TextHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="TextHandling" type="462c0819:PsiDirectoryNode" />
-              <item name="WordCounter" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="TextHandling" type="462c0819:PsiDirectoryNode" />
-              <item name="WordCounter" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="TextHandling" type="462c0819:PsiDirectoryNode" />
-              <item name="WordCounter" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -138,8 +154,8 @@
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="TextHandling" type="462c0819:PsiDirectoryNode" />
-              <item name="WordCounter" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -148,8 +164,8 @@
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="TextHandling" type="462c0819:PsiDirectoryNode" />
-              <item name="WordCounter" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -196,11 +212,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WorkCounterImpTest.getWordCountsSortedTest">
+  <component name="RunManager" selected="JUnit.TreeNodeImpTest.findChild">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="EmployeeImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeNodeImpTest.addChildTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studentTasks" />
       <extension name="coverage">
         <pattern>
@@ -211,31 +227,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
-      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.EmployeeImplTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="EmployeeImplTest.getTopManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studentTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.edu.java.tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
-      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.EmployeeImplTest" />
-      <option name="METHOD_NAME" value="getTopManager" />
+      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.TreeNodeImpTest" />
+      <option name="METHOD_NAME" value="addChildTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -246,7 +239,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EmployeeImplTest.setGetManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeNodeImpTest.findChild" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studentTasks" />
       <extension name="coverage">
         <pattern>
@@ -257,8 +250,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
-      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.EmployeeImplTest" />
-      <option name="METHOD_NAME" value="setGetManager" />
+      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.TreeNodeImpTest" />
+      <option name="METHOD_NAME" value="findChild" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -269,7 +262,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EmployeeImplTest.setGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeNodeImpTest.findParent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studentTasks" />
       <extension name="coverage">
         <pattern>
@@ -280,8 +273,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
-      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.EmployeeImplTest" />
-      <option name="METHOD_NAME" value="setGetName" />
+      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.TreeNodeImpTest" />
+      <option name="METHOD_NAME" value="findParent" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -292,7 +285,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="WorkCounterImpTest.getWordCountsSortedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeNodeImpTest.setGetParentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studentTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.edu.java.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
+      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.TreeNodeImpTest" />
+      <option name="METHOD_NAME" value="setGetParentTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WorkCounterImpTest.getWordCountsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studentTasks" />
       <extension name="coverage">
         <pattern>
@@ -304,7 +320,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
       <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.WorkCounterImpTest" />
-      <option name="METHOD_NAME" value="getWordCountsSortedTest" />
+      <option name="METHOD_NAME" value="getWordCountsTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -354,19 +370,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.EmployeeImplTest.setGetName" />
-      <item itemvalue="JUnit.EmployeeImplTest.setGetManager" />
-      <item itemvalue="JUnit.EmployeeImplTest.getTopManager" />
-      <item itemvalue="JUnit.EmployeeImplTest" />
-      <item itemvalue="JUnit.WorkCounterImpTest.getWordCountsSortedTest" />
+      <item itemvalue="JUnit.WorkCounterImpTest.getWordCountsTest" />
+      <item itemvalue="JUnit.TreeNodeImpTest.setGetParentTest" />
+      <item itemvalue="JUnit.TreeNodeImpTest.findParent" />
+      <item itemvalue="JUnit.TreeNodeImpTest.addChildTest" />
+      <item itemvalue="JUnit.TreeNodeImpTest.findChild" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WorkCounterImpTest.getWordCountsSortedTest" />
-        <item itemvalue="JUnit.EmployeeImplTest" />
-        <item itemvalue="JUnit.EmployeeImplTest.getTopManager" />
-        <item itemvalue="JUnit.EmployeeImplTest.setGetManager" />
-        <item itemvalue="JUnit.EmployeeImplTest.setGetName" />
+        <item itemvalue="JUnit.TreeNodeImpTest.findChild" />
+        <item itemvalue="JUnit.TreeNodeImpTest.addChildTest" />
+        <item itemvalue="JUnit.TreeNodeImpTest.findParent" />
+        <item itemvalue="JUnit.TreeNodeImpTest.setGetParentTest" />
+        <item itemvalue="JUnit.WorkCounterImpTest.getWordCountsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -382,47 +398,47 @@
       <updated>1528485798687</updated>
       <workItem from="1528485800446" duration="25128000" />
       <workItem from="1528576340249" duration="22089000" />
-      <workItem from="1528919165812" duration="1514000" />
+      <workItem from="1528919165812" duration="9596000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WorkCounterImpTest_getWordCountsSortedTest - 2018.06.13 at 22h 59m 27s.xml">
-      <configuration name="WorkCounterImpTest.getWordCountsSortedTest" configurationId="JUnit" />
+    <history-entry file="TreeNodeImpTest_findChild - 2018.06.16 at 11h 52m 17s.xml">
+      <configuration name="TreeNodeImpTest.findChild" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCountsSortedTest - 2018.06.13 at 23h 02m 04s.xml">
-      <configuration name="WorkCounterImpTest.getWordCountsSortedTest" configurationId="JUnit" />
+    <history-entry file="TreeNodeImpTest_findChild - 2018.06.16 at 11h 52m 32s.xml">
+      <configuration name="TreeNodeImpTest.findChild" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCountsSortedTest - 2018.06.13 at 23h 02m 19s.xml">
-      <configuration name="WorkCounterImpTest.getWordCountsSortedTest" configurationId="JUnit" />
+    <history-entry file="TreeNodeImpTest_findChild - 2018.06.16 at 11h 52m 54s.xml">
+      <configuration name="TreeNodeImpTest.findChild" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCountsSortedTest - 2018.06.13 at 23h 02m 30s.xml">
-      <configuration name="WorkCounterImpTest.getWordCountsSortedTest" configurationId="JUnit" />
+    <history-entry file="TreeNodeImpTest_findChild - 2018.06.16 at 11h 53m 44s.xml">
+      <configuration name="TreeNodeImpTest.findChild" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCountsSortedTest - 2018.06.13 at 23h 04m 01s.xml">
-      <configuration name="WorkCounterImpTest.getWordCountsSortedTest" configurationId="JUnit" />
+    <history-entry file="TreeNodeImpTest_findChild - 2018.06.16 at 11h 56m 08s.xml">
+      <configuration name="TreeNodeImpTest.findChild" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCountsSortedTest - 2018.06.13 at 23h 04m 38s.xml">
-      <configuration name="WorkCounterImpTest.getWordCountsSortedTest" configurationId="JUnit" />
+    <history-entry file="TreeNodeImpTest_findChild - 2018.06.16 at 11h 57m 10s.xml">
+      <configuration name="TreeNodeImpTest.findChild" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCountsSortedTest - 2018.06.13 at 23h 06m 28s.xml">
-      <configuration name="WorkCounterImpTest.getWordCountsSortedTest" configurationId="JUnit" />
+    <history-entry file="TreeNodeImpTest_findChild - 2018.06.16 at 11h 58m 49s.xml">
+      <configuration name="TreeNodeImpTest.findChild" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCountsSortedTest - 2018.06.13 at 23h 07m 47s.xml">
-      <configuration name="WorkCounterImpTest.getWordCountsSortedTest" configurationId="JUnit" />
+    <history-entry file="TreeNodeImpTest_findChild - 2018.06.16 at 11h 59m 01s.xml">
+      <configuration name="TreeNodeImpTest.findChild" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCountsSortedTest - 2018.06.13 at 23h 08m 21s.xml">
-      <configuration name="WorkCounterImpTest.getWordCountsSortedTest" configurationId="JUnit" />
+    <history-entry file="TreeNodeImpTest_findChild - 2018.06.16 at 12h 01m 34s.xml">
+      <configuration name="TreeNodeImpTest.findChild" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WorkCounterImpTest_getWordCountsSortedTest - 2018.06.13 at 23h 08m 35s.xml">
-      <configuration name="WorkCounterImpTest.getWordCountsSortedTest" configurationId="JUnit" />
+    <history-entry file="TreeNodeImpTest_findChild - 2018.06.16 at 12h 03m 08s.xml">
+      <configuration name="TreeNodeImpTest.findChild" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48731000" />
+    <option name="totallyTimeSpent" value="56813000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1852" y="-331" width="1780" height="1007" extended-state="0" />
+    <frame x="-1834" y="-247" width="1792" height="931" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -434,18 +450,18 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29875988" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3267571" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.23224352" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25316456" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25142857" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41100323" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41060418" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -465,25 +481,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImpTest.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImpTest.java</url>
-          <line>214</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImp.java</url>
           <line>70</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImpTest.java</url>
+          <line>223</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="30" />
+      <option name="time" value="38" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -512,6 +522,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1770">
           <caret line="118" column="25" selection-start-line="118" selection-start-column="25" selection-end-line="118" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2345#2346#0" expanded="true" />
+            <element signature="e#2377#2378#0" expanded="true" />
+            <element signature="e#2431#2432#0" expanded="true" />
+            <element signature="e#2463#2464#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -519,48 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2070">
           <caret line="138" column="30" selection-start-line="138" selection-start-column="30" selection-end-line="138" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WordCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="76" column="74" lean-forward="true" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="202" selection-start-line="202" selection-end-line="202" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="107" column="36" lean-forward="true" selection-start-line="107" selection-start-column="4" selection-end-line="107" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="217" selection-start-line="217" selection-end-line="217" />
         </state>
       </provider>
     </entry>
@@ -625,17 +600,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WordCounterImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
+        <state relative-caret-position="1275">
           <caret line="89" column="26" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WordCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="76" column="74" selection-start-line="76" selection-start-column="74" selection-end-line="76" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WorkCounterImpTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="97" column="65" lean-forward="true" selection-start-line="97" selection-start-column="65" selection-end-line="97" selection-end-column="65" />
+        <state relative-caret-position="1230">
+          <caret line="82" column="74" selection-start-line="82" selection-start-column="53" selection-end-line="82" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="105" column="81" lean-forward="true" selection-start-line="101" selection-start-column="7" selection-end-line="105" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="224" column="62" selection-start-line="224" selection-start-column="62" selection-end-line="224" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2345#2346#0" expanded="true" />
+            <element signature="e#2377#2378#0" expanded="true" />
+            <element signature="e#2431#2432#0" expanded="true" />
+            <element signature="e#2463#2464#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -66,11 +66,16 @@ public class TreeNodeImpTest {
     public void addChildTest() throws NoSuchFieldException, IllegalAccessException {
         TreeNode root = new TreeNodeImp("root", new TreeNodeImp("one"), new TreeNodeImp("two"));
 
+        TreeNode three = new TreeNodeImp("three");
+
+        root.addChild(three);
+        root.addChild(three);
+
         Field field = root.getClass().getDeclaredField("children");
         field.setAccessible(true);
         Set<TreeNode> temp = (Set<TreeNode>) field.get(root);
 
-        Assert.assertEquals(2, temp.size());
+        Assert.assertEquals(3, temp.size());
     }
 
     @Test
@@ -211,10 +216,15 @@ public class TreeNodeImpTest {
         TreeNode two = new TreeNodeImp("12");
         TreeNode three = new TreeNodeImp("13");
 
+        TreeNode three1 = new TreeNodeImp("131");
+        three.addChild(three1);
+
         TreeNode root = new TreeNodeImp("root", one, two, three);
 
         Assert.assertTrue(root.findChild("111").equals(one1));
         Assert.assertTrue(root.findChild("13").equals(three));
+        Assert.assertTrue(root.findChild("131").equals(three1));
+
 
     }
 }
