@@ -67,9 +67,12 @@ public class TreeNodeImpTest {
         TreeNode root = new TreeNodeImp("root", new TreeNodeImp("one"), new TreeNodeImp("two"));
 
         TreeNode three = new TreeNodeImp("three");
+        root.addChild(three);
 
-        root.addChild(three);
-        root.addChild(three);
+        TreeNode four = new TreeNodeImp("four");
+        three.addChild(four);
+
+        root.addChild(four);
 
         Field field = root.getClass().getDeclaredField("children");
         field.setAccessible(true);
@@ -201,6 +204,7 @@ public class TreeNodeImpTest {
         Assert.assertTrue(one.findParent("four").equals(four));
         Assert.assertTrue(one.findParent("one").equals(one));
         Assert.assertTrue(one.findParent(null).equals(five));
+        Assert.assertNull(five.findParent("qwerty"));
 
 
     }
@@ -224,6 +228,7 @@ public class TreeNodeImpTest {
         Assert.assertTrue(root.findChild("111").equals(one1));
         Assert.assertTrue(root.findChild("13").equals(three));
         Assert.assertTrue(root.findChild("131").equals(three1));
+        Assert.assertNull(root.findChild(null));
 
 
     }

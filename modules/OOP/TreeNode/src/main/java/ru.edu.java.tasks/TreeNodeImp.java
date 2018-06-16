@@ -75,7 +75,10 @@ public class TreeNodeImp implements TreeNode {
 
     @Override
     public void addChild(TreeNode child) {
-        if (this.children.contains(child))
+
+        TreeNode temp = this.findChild(child.getData());
+
+        if (temp == child)
             return;
         this.children.add(child);
         child.setParent(this);
@@ -84,12 +87,7 @@ public class TreeNodeImp implements TreeNode {
 
     @Override
     public boolean removeChild(TreeNode child) {
-
-        if (this.children.contains(child)) {
-            child.setParent(null);
-            return this.children.remove(child);
-        }
-        return false;
+        return this.children.remove(child);
     }
 
     @Override
@@ -99,12 +97,9 @@ public class TreeNodeImp implements TreeNode {
 
     @Override
     public void setExpanded(boolean expanded) {
-
         this.isExpanded = expanded;
-        if (this.children.size() != 0)
-
-            for (TreeNode child : this.children)
-                child.setExpanded(expanded);
+        for (TreeNode child : this.children)
+            child.setExpanded(expanded);
     }
 
     @Override
@@ -134,22 +129,24 @@ public class TreeNodeImp implements TreeNode {
 
     @Override
     public TreeNode findParent(Object data) {
-
-
         if (data == null && this.data == null)
             return this;
 
-
-        if (this.data.equals(data))
+        else if (this.data != null && this.data.equals(data))
             return this;
 
+        else if (this.root == null)
+            return null;
         return this.root.findParent(data);
     }
 
     @Override
     public TreeNode findChild(Object data) {
 
-        if (this.data.equals(data))
+        if (this.getData() == null)
+            return null;
+
+        if (this.getData().equals(data))
             return this;
 
         if (this.children != null && this.children.size() != 0) {
