@@ -6,7 +6,7 @@ import java.util.*;
 public class WordCounterImp implements WordCounter {
 
 
-    private Map<String, Long> counter = null;
+    private Map<String, Long> counter = new HashMap<>();
     private String text = null;
 
 
@@ -26,9 +26,6 @@ public class WordCounterImp implements WordCounter {
 
         if (this.text == null)
             return null;
-
-        if (counter == null)
-            this.counter = new HashMap<>();
 
         String[] words = this.text.split("(?U)\\s*(\\s |,|!|\\.|(&gt;)|(&lt;)|\\W)\\s*");
 

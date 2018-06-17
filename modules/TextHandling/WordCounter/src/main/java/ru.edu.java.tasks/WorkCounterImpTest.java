@@ -82,6 +82,10 @@ public class WorkCounterImpTest {
 
         List<Map.Entry<String, Long>> test = counter.getWordCountsSorted();
 
+        for (Map.Entry<String, Long> testMap : test) {
+            System.out.println(testMap.getKey() + "   " + testMap.getValue());
+        }
+
 
         Assert.assertTrue(test.get(0).getKey().equals("zero"));
         Assert.assertTrue(test.get(1).getKey().equals("apple"));

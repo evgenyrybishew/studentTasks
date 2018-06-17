@@ -44,17 +44,16 @@ public class TreeNodeImp implements TreeNode {
 
     @Override
     public void setParent(TreeNode parent) {
-        if (parent == this || parent == this.getParent())
-            return;
-        this.root = parent;
-        this.root.addChild(this);
+        if (parent != this || parent != this.getParent()) {
+            this.root = parent;
+            this.root.addChild(this);
+        }
     }
 
     @Override
     public TreeNode getRoot() {
         if (this.root == null)
             return this;
-
         return this.root.getRoot();
     }
 
@@ -149,16 +148,15 @@ public class TreeNodeImp implements TreeNode {
         if (this.getData().equals(data))
             return this;
 
-        if (this.children != null && this.children.size() != 0) {
 
-            for (TreeNode node : this.children) {
-                TreeNode temp = node.findChild(data);
+        for (TreeNode node : this.children) {
+            TreeNode temp = node.findChild(data);
 
-                if (temp != null)
-                    if (temp.getData().equals(data))
-                        return temp;
-            }
+            if (temp != null)
+                if (temp.getData().equals(data))
+                    return temp;
         }
+
         return null;
     }
 }
