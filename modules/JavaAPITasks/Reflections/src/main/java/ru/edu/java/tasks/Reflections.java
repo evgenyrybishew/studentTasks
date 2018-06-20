@@ -1,5 +1,6 @@
 package ru.edu.java.tasks;
 
+import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.List;
 import java.util.Set;
@@ -27,7 +28,7 @@ public interface Reflections {
      * @throws NoSuchFieldException если поля с указанным именем не существует
      * @throws NullPointerException если fieldName or object является null-ом
      */
-    public Object getFieldValueByName(Object object, String fieldName) throws NoSuchFieldException;
+    public Object getFieldValueByName(Object object, String fieldName) throws NoSuchFieldException, IllegalAccessException;
 
     /**
      * Метод возвращает набор имен методов для класса, помеченных идентификатором protected
@@ -83,7 +84,7 @@ public interface Reflections {
      *
      * @return результат, который возвращает метод foo()
      */
-    public String getFooFunctionResultForDefaultConstructedClass();
+    public String getFooFunctionResultForDefaultConstructedClass() throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException;
 
     /**
      * Метод создает экземпляр класса SecretClass с помощью конструктора с параметром constructorParameter
@@ -94,7 +95,7 @@ public interface Reflections {
      * @param integers последующие аргументы для функции foo
      * @return результат, который возвращает метод foo(...)
      */
-    public String getFooFunctionResultForClass(String constructorParameter, String string, Integer... integers);
+    public String getFooFunctionResultForClass(String constructorParameter, String string, Integer... integers) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException;
 
     @SuppressWarnings("unused")
     public class SecretClass {
