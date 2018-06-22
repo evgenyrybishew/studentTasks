@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e2d8f48-c881-4860-b8b2-696a0561e0cc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/studentTasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/studentTasks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/ArrayVectorImpTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/OOP/ArrayVector/src/test/java/ru.edu.java.tasks/ArrayVectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/OOP/ArrayVector/src/test/ru/edu/java/tasks/ArrayVectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/OOP/ComplexNumber/src/test/java/ru/edu/java/tasks/ComplexNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/OOP/ComplexNumber/src/test/ru/edu/java/tasks/ComplexNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/OOP/Employee/src/main/java/ru.edu.java.tasks/EmployeeImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/OOP/Employee/src/test/java/ru.edu.java.tasks/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/OOP/Employee/src/test/ru/edu/java/tasks/EmployeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImpTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/OOP/TreeNode/src/test/java/ru.edu.java.tasks/TreeNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/OOP/TreeNode/src/test/ru/edu/java/tasks/TreeNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ru/edu/java/tasks/ArrayVectorImpTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ru/edu/java/tasks/ReflectionsImpTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,39 +23,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CheckerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/Checker/src/test/ru/edu/java/tasks/CheckerTest.java">
+      <file leaf-file-name="TreeNodeTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/test/ru/edu/java/tasks/TreeNodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="2490">
+              <caret line="166" column="16" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurriculumVitaeImp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/CurriculumVitaeImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2241">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurriculumVitaeImpTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/CurriculumVitaeImpTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2702">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -91,6 +78,11 @@
         <option value="$PROJECT_DIR$/modules/JavaAPITasks/BusinessCard/src/main/java/ru/edu/java/tasks/BusinessCardImpTest.java" />
         <option value="$PROJECT_DIR$/modules/JavaAPITasks/BusinessCard/src/test/ru/edu/java/tasks/BusinessCardTest.java" />
         <option value="$PROJECT_DIR$/modules/JavaAPITasks/Checker/src/test/ru/edu/java/tasks/CheckerTest.java" />
+        <option value="$PROJECT_DIR$/modules/JavaAPITasks/Reflections/src/test/ru/edu/java/tasks/ReflectionsTest.java" />
+        <option value="$PROJECT_DIR$/modules/OOP/ArrayVector/src/test/ru/edu/java/tasks/ArrayVectorTest.java" />
+        <option value="$PROJECT_DIR$/modules/OOP/ComplexNumber/src/test/ru/edu/java/tasks/ComplexNumberTest.java" />
+        <option value="$PROJECT_DIR$/modules/OOP/Employee/src/test/ru/edu/java/tasks/EmployeeTest.java" />
+        <option value="$PROJECT_DIR$/modules/OOP/TreeNode/src/test/ru/edu/java/tasks/TreeNodeTest.java" />
       </list>
     </option>
   </component>
@@ -127,82 +119,82 @@
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaAPITasks" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaAPITasks" type="462c0819:PsiDirectoryNode" />
-              <item name="Reflections" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaAPITasks" type="462c0819:PsiDirectoryNode" />
-              <item name="Reflections" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaAPITasks" type="462c0819:PsiDirectoryNode" />
-              <item name="Reflections" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaAPITasks" type="462c0819:PsiDirectoryNode" />
-              <item name="Reflections" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaAPITasks" type="462c0819:PsiDirectoryNode" />
-              <item name="Reflections" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ru.edu.java.tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaAPITasks" type="462c0819:PsiDirectoryNode" />
-              <item name="Reflections" type="462c0819:PsiDirectoryNode" />
+              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaAPITasks" type="462c0819:PsiDirectoryNode" />
-              <item name="Reflections" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaAPITasks" type="462c0819:PsiDirectoryNode" />
-              <item name="Reflections" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ru.edu.java.tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeNodeTest" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -212,10 +204,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/modules/JavaAPITasks/Reflections/src/test" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/modules/OOP/TreeNode/src/test" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/JavaAPITasks/Reflections/src/test/resource" />
       <recent name="$PROJECT_DIR$/modules/JavaAPITasks/Checker/src/test/resource" />
       <recent name="$PROJECT_DIR$/modules/JavaAPITasks/BusinessCard/src/test/resources" />
     </key>
@@ -232,11 +225,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReflectionsTest">
+  <component name="RunManager" selected="JUnit.TreeNodeTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="CheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayVectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studentTasks" />
       <extension name="coverage">
         <pattern>
@@ -247,7 +240,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
-      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.CheckerTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.ArrayVectorTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -259,7 +252,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CheckerTest.fetchAllTemplatesEmailsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ComplexNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studentTasks" />
       <extension name="coverage">
         <pattern>
@@ -270,9 +263,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
-      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.CheckerTest" />
-      <option name="METHOD_NAME" value="fetchAllTemplatesEmailsTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.ComplexNumberTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -282,7 +275,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="CurriculumVitaeImpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmployeeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studentTasks" />
       <extension name="coverage">
         <pattern>
@@ -293,7 +286,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
-      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.CurriculumVitaeImpTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.EmployeeTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -328,7 +321,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ReflectionsTest.getAllImplementedMethodsWithSupersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studentTasks" />
       <extension name="coverage">
         <pattern>
@@ -339,9 +332,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
-      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.ReflectionsTest" />
-      <option name="METHOD_NAME" value="getAllImplementedMethodsWithSupersTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.TreeNodeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -390,19 +383,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CheckerTest.fetchAllTemplatesEmailsTest" />
-      <item itemvalue="JUnit.CheckerTest" />
-      <item itemvalue="JUnit.CurriculumVitaeImpTest" />
-      <item itemvalue="JUnit.ReflectionsTest.getAllImplementedMethodsWithSupersTest" />
       <item itemvalue="JUnit.ReflectionsTest" />
+      <item itemvalue="JUnit.ArrayVectorTest" />
+      <item itemvalue="JUnit.ComplexNumberTest" />
+      <item itemvalue="JUnit.EmployeeTest" />
+      <item itemvalue="JUnit.TreeNodeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreeNodeTest" />
+        <item itemvalue="JUnit.EmployeeTest" />
+        <item itemvalue="JUnit.ComplexNumberTest" />
+        <item itemvalue="JUnit.ArrayVectorTest" />
         <item itemvalue="JUnit.ReflectionsTest" />
-        <item itemvalue="JUnit.ReflectionsTest.getAllImplementedMethodsWithSupersTest" />
-        <item itemvalue="JUnit.CurriculumVitaeImpTest" />
-        <item itemvalue="JUnit.CheckerTest" />
-        <item itemvalue="JUnit.CheckerTest.fetchAllTemplatesEmailsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -423,24 +416,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BusinessCardTest_getBusinessCardTest - 2018.06.23 at 00h 19m 03s.xml">
-      <configuration name="BusinessCardTest.getBusinessCardTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BusinessCardTest_getBusinessCardTestWrongTel - 2018.06.23 at 00h 19m 29s.xml">
-      <configuration name="BusinessCardTest.getBusinessCardTestWrongTel" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BusinessCardTest_getBusinessCardTestWrongSalary - 2018.06.23 at 00h 19m 49s.xml">
-      <configuration name="BusinessCardTest.getBusinessCardTestWrongSalary" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BusinessCardTest_getBusinessCardTestWrongGender - 2018.06.23 at 00h 20m 02s.xml">
-      <configuration name="BusinessCardTest.getBusinessCardTestWrongGender" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BusinessCardTest_getBusinessCardTestnIputMismatchException - 2018.06.23 at 00h 20m 16s.xml">
-      <configuration name="BusinessCardTest.getBusinessCardTestnIputMismatchException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BusinessCardTest - 2018.06.23 at 00h 20m 28s.xml">
-      <configuration name="BusinessCardTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CheckerTest_fetchAllTemplatesEmailsTest - 2018.06.23 at 00h 29m 43s.xml">
       <configuration name="CheckerTest.fetchAllTemplatesEmailsTest" configurationId="JUnit" />
     </history-entry>
@@ -453,12 +428,31 @@
     <history-entry file="CurriculumVitaeImpTest - 2018.06.23 at 00h 35m 10s.xml">
       <configuration name="CurriculumVitaeImpTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ReflectionsTest_getAllImplementedMethodsWithSupersTest - 2018.06.23 at 00h 54m 36s.xml">
+      <configuration name="ReflectionsTest.getAllImplementedMethodsWithSupersTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReflectionsTest - 2018.06.23 at 00h 55m 02s.xml">
+      <configuration name="ReflectionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayVectorTest - 2018.06.23 at 00h 57m 26s.xml">
+      <configuration name="ArrayVectorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComplexNumberTest - 2018.06.23 at 00h 58m 41s.xml">
+      <configuration name="ComplexNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmployeeTest - 2018.06.23 at 00h 59m 24s.xml">
+      <configuration name="EmployeeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeNodeTest - 2018.06.23 at 01h 00m 35s.xml">
+      <configuration name="TreeNodeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52337000" />
+    <option name="totallyTimeSpent" value="53002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1858" y="-355" width="1815" height="1127" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -469,9 +463,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29890764" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29890764" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35948363" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35948363" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25267908" />
@@ -519,58 +513,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/OOP/Employee/src/main/java/ru.edu.java.tasks/TestEmployee.java" />
-    <entry file="file://$PROJECT_DIR$/modules/OOP/Employee/src/main/java/ru.edu.java.tasks/EmployeeImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/OOP/Employee/src/main/java/ru.edu.java.tasks/EmployeeImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="43" column="60" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/BusinessCard/src/main/java/ru/edu/java/tasks/BusinessCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/Checker/src/main/java/ru/edu/java/tasks/Checker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/Reflections/src/main/java/ru/edu/java/tasks/Reflections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/CurriculumVitae.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-827">
-          <caret line="183" column="31" selection-start-line="183" selection-start-column="31" selection-end-line="183" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WordCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -633,15 +575,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImp.java" />
-    <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImpTest.java" />
     <entry file="file://$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/ArrayVectorTest.java" />
-    <entry file="file://$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/ArrayVectorImpTest.java" />
     <entry file="file://$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/ArrayVectorImp.java" />
-    <entry file="file://$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImpTest.java" />
     <entry file="file://$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImp.java" />
     <entry file="file://$PROJECT_DIR$/modules/OOP/Employee/src/main/java/ru.edu.java.tasks/TestEmployee.java" />
     <entry file="file://$PROJECT_DIR$/modules/OOP/Employee/src/main/java/ru.edu.java.tasks/EmployeeImpl.java" />
-    <entry file="file://$PROJECT_DIR$/modules/OOP/Employee/src/main/java/ru.edu.java.tasks/EmployeeImplTest.java" />
     <entry file="file://$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/CurriculumVitae.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -780,6 +718,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/Reflections/src/test/resource/exception.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/Reflections/src/main/java/ru/edu/java/tasks/ReflectionsImpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="141" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="141" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/Reflections/src/test/ru/edu/java/tasks/ReflectionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/ArrayVectorImpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="175" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="175" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/OOP/ArrayVector/src/test/ru/edu/java/tasks/ArrayVectorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2595">
+          <caret line="173" column="5" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/OOP/ComplexNumber/src/test/ru/edu/java/tasks/ComplexNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2730">
+          <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/OOP/Employee/src/test/ru/edu/java/tasks/EmployeeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="184" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="184" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/OOP/Employee/src/main/java/ru.edu.java.tasks/EmployeeImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="44" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="233" column="5" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="233" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/test/ru/edu/java/tasks/TreeNodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2490">
+          <caret line="166" column="16" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

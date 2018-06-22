@@ -7,9 +7,7 @@ import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.Random;
 
-
-public class ArrayVectorImpTest {
-
+public class ArrayVectorTest {
     @Test
     public void setGetTest() {
         ArrayVector vector = new ArrayVectorImp();

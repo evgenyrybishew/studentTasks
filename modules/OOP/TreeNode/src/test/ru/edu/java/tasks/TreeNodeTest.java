@@ -6,10 +6,7 @@ import org.junit.Test;
 import java.lang.reflect.Field;
 import java.util.Set;
 
-import static org.junit.Assert.*;
-
-public class TreeNodeImpTest {
-
+public class TreeNodeTest {
     @Test
     public void setGetParentTest() {
 
@@ -149,19 +146,19 @@ public class TreeNodeImpTest {
     }
 
     @Test
-    public void setData() throws NoSuchFieldException, IllegalAccessException{
+    public void setData() throws NoSuchFieldException, IllegalAccessException {
 
         TreeNode node = new TreeNodeImp();
         node.setData("new data");
 
         Field field = node.getClass().getDeclaredField("data");
         field.setAccessible(true);
-        String result = (String)field.get(node);
+        String result = (String) field.get(node);
 
         Assert.assertTrue(result.equals("new data"));
 
         node.setData(12345);
-        int resultInt = (int)field.get(node);
+        int resultInt = (int) field.get(node);
         Assert.assertEquals(resultInt, 12345);
 
     }
@@ -229,7 +226,5 @@ public class TreeNodeImpTest {
         Assert.assertTrue(root.findChild("13").equals(three));
         Assert.assertTrue(root.findChild("131").equals(three1));
         Assert.assertNull(root.findChild(null));
-
-
     }
 }

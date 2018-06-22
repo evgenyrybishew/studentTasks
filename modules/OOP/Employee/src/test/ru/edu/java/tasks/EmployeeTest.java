@@ -3,10 +3,7 @@ package ru.edu.java.tasks;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
-public class EmployeeImplTest {
-
+public class EmployeeTest {
     @Test
     public void increaseAndGetSalaryTest() {
         Employee employee = new EmployeeImpl();
