@@ -9,10 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
-
-public class CurriculumVitaeImpTest {
-
-
+public class CurriculumVitaeTest {
     private String readFile(String path) throws IOException {
 
         List<String> lines = Files.readAllLines(Paths.get(path));
@@ -22,32 +19,31 @@ public class CurriculumVitaeImpTest {
         return source;
     }
 
-
     @Test
     public void setTextTest() throws Exception {
 
         CurriculumVitae cv = new CurriculumVitaeImp();
-        cv.setText(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt"));
+        cv.setText(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt"));
 
         Field field = cv.getClass().getDeclaredField("text");
         field.setAccessible(true);
         String text = (String) field.get(cv);
 
-        Assert.assertTrue(text.equals(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt")));
+        Assert.assertTrue(text.equals(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt")));
 
 
     }
 
     @Test
     public void getTextTest() throws Exception {
-        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt"));
-        Assert.assertTrue(cv.getText().equals(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt")));
+        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt"));
+        Assert.assertTrue(cv.getText().equals(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt")));
     }
 
     @Test
     public void getPhonesTest() throws Exception {
-        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt"));
-        String phones = readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/phones.txt");
+        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt"));
+        String phones = readFile("modules/TextHandling/CurriculumVitae/test/resource/phones.txt");
         ArrayList<CurriculumVitae.Phone> phoneList = (ArrayList<CurriculumVitae.Phone>) cv.getPhones();
         StringBuilder result = new StringBuilder();
         for (CurriculumVitae.Phone p : phoneList) {
@@ -59,14 +55,14 @@ public class CurriculumVitaeImpTest {
 
     @Test
     public void getFullNameTest() throws Exception {
-        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt"));
+        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt"));
         String fullName = cv.getFullName();
         Assert.assertTrue(fullName.trim().equals("Sidorov Ptetr Vasilievich"));
     }
 
     @Test
     public void getFullNameNoSuchElementExceptionTest() throws Exception {
-        CurriculumVitae cv = new CurriculumVitaeImp("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/wrongCV.txt");
+        CurriculumVitae cv = new CurriculumVitaeImp("modules/TextHandling/CurriculumVitae/test/resource/wrongCV.txt");
         boolean fail = false;
         try {
             cv.getFullName();
@@ -80,9 +76,9 @@ public class CurriculumVitaeImpTest {
 
     @Test
     public void getFirstNameTest() throws Exception {
-        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt"));
+        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt"));
         Assert.assertTrue(cv.getFirstName().equals("Sidorov"));
-        cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv2.txt"));
+        cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv2.txt"));
         Assert.assertTrue(cv.getFirstName().equals("Sidorov"));
 
 
@@ -90,33 +86,33 @@ public class CurriculumVitaeImpTest {
 
     @Test
     public void getMiddleNameTest() throws Exception {
-        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt"));
+        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt"));
         Assert.assertTrue(cv.getMiddleName().equals("Ptetr"));
-        cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv2.txt"));
+        cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv2.txt"));
         Assert.assertNull(cv.getMiddleName());
     }
 
     @Test
     public void getLastName() throws Exception {
-        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt"));
+        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt"));
         Assert.assertTrue(cv.getLastName().equals("Vasilievich"));
-        cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv2.txt"));
+        cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv2.txt"));
         Assert.assertTrue(cv.getLastName().equals("Ptetr"));
     }
 
     @Test
     public void updateLastName() throws Exception {
-        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt"));
+        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt"));
         cv.updateLastName("Fedorovich");
         Field field = cv.getClass().getDeclaredField("text");
         field.setAccessible(true);
         String text = (String) field.get(cv);
-        Assert.assertTrue(text.equals(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/updateCV.txt")));
+        Assert.assertTrue(text.equals(readFile("modules/TextHandling/CurriculumVitae/test/resource/updateCV.txt")));
     }
 
     @Test
     public void updatePhoneTest() throws Exception {
-        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt"));
+        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt"));
 
         CurriculumVitae.Phone oldPhone = new CurriculumVitae.Phone("123-45-67", 999, 2345);
         CurriculumVitae.Phone newPhone = new CurriculumVitae.Phone("999-99-99", 999, 2345);
@@ -126,13 +122,13 @@ public class CurriculumVitaeImpTest {
         field.setAccessible(true);
         String text = (String) field.get(cv);
 
-        Assert.assertTrue(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cvUpdatePhones.txt").equals(text));
+        Assert.assertTrue(readFile("modules/TextHandling/CurriculumVitae/test/resource/cvUpdatePhones.txt").equals(text));
     }
 
     @Test
     public void updatePhoneIllegalStateExceptionTest() throws Exception {
 
-        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt"));
+        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt"));
         CurriculumVitae.Phone oldPhone = new CurriculumVitae.Phone("123-45-67", 999, 2345);
         boolean ex = false;
         try {
@@ -147,7 +143,7 @@ public class CurriculumVitaeImpTest {
     @Test
     public void updatePhoneIllegalArgumentExceptionTest() throws Exception {
 
-        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt"));
+        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt"));
         CurriculumVitae.Phone oldPhone = new CurriculumVitae.Phone("777-55-99", 999, 2345);
         CurriculumVitae.Phone newPhone = new CurriculumVitae.Phone("999-99-99", 999, 2345);
 
@@ -163,14 +159,14 @@ public class CurriculumVitaeImpTest {
 
     @Test
     public void hideTest() throws Exception {
-        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt"));
+        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt"));
 
         cv.hide("sidorov.petr@mail.net");
 
         Field field = cv.getClass().getDeclaredField("text");
         field.setAccessible(true);
         String text = (String) field.get(cv);
-        Assert.assertTrue(text.equals(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/hideTest.txt")));
+        Assert.assertTrue(text.equals(readFile("modules/TextHandling/CurriculumVitae/test/resource/hideTest.txt")));
 
         field = cv.getClass().getDeclaredField("hiddenInfo");
         field.setAccessible(true);
@@ -182,14 +178,14 @@ public class CurriculumVitaeImpTest {
     //TODO: fix bug - IllegalArgumentException for (916)700-6964
     @Test
     public void hidePhoneTest() throws Exception {
-        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt"));
+        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt"));
         cv.hidePhone("999 123-45-67 ext.2345");
         cv.hidePhone("256-1004");
 
         Field field = cv.getClass().getDeclaredField("text");
         field.setAccessible(true);
         String text = (String) field.get(cv);
-        Assert.assertTrue(text.equals(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/hidePhone.txt")));
+        Assert.assertTrue(text.equals(readFile("modules/TextHandling/CurriculumVitae/test/resource/hidePhone.txt")));
 
         field = cv.getClass().getDeclaredField("hiddenInfo");
         field.setAccessible(true);
@@ -201,11 +197,11 @@ public class CurriculumVitaeImpTest {
 
     @Test
     public void unhideAllTest() throws Exception {
-        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt"));
+        CurriculumVitae cv = new CurriculumVitaeImp(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt"));
 
         Field field = cv.getClass().getDeclaredField("text");
         field.setAccessible(true);
-        field.set(cv, readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/forUnhideAllTest.txt"));
+        field.set(cv, readFile("modules/TextHandling/CurriculumVitae/test/resource/forUnhideAllTest.txt"));
 
         Map<String, String> hidenInfo = new HashMap<>();
 
@@ -221,7 +217,7 @@ public class CurriculumVitaeImpTest {
         field.setAccessible(true);
         String text = (String) field.get(cv);
 
-        Assert.assertTrue(text.equals(readFile("modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt")));
+        Assert.assertTrue(text.equals(readFile("modules/TextHandling/CurriculumVitae/test/resource/cv.txt")));
         Assert.assertEquals(3, counter);
     }
 }

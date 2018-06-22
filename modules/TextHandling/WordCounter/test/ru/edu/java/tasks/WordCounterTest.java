@@ -2,10 +2,12 @@ package ru.edu.java.tasks;
 
 import org.junit.Assert;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
-public class WorkCounterImpTest {
-
+public class WordCounterTest {
     @org.junit.Test
     public void setGetTextNullTest() {
         WordCounter text = new WordCounterImp();

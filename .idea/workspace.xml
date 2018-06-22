@@ -3,16 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="7e2d8f48-c881-4860-b8b2-696a0561e0cc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/studentTasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/studentTasks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/ArrayVectorImpTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/OOP/ArrayVector/src/test/java/ru.edu.java.tasks/ArrayVectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/OOP/ArrayVector/src/test/ru/edu/java/tasks/ArrayVectorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/OOP/ComplexNumber/src/test/java/ru/edu/java/tasks/ComplexNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/OOP/ComplexNumber/src/test/ru/edu/java/tasks/ComplexNumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/OOP/Employee/src/main/java/ru.edu.java.tasks/EmployeeImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/OOP/Employee/src/test/java/ru.edu.java.tasks/EmployeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/OOP/Employee/src/test/ru/edu/java/tasks/EmployeeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImpTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/OOP/TreeNode/src/test/java/ru.edu.java.tasks/TreeNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/OOP/TreeNode/src/test/ru/edu/java/tasks/TreeNodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/ru/edu/java/tasks/ArrayVectorImpTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/ru/edu/java/tasks/ReflectionsImpTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/resource/cv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cv2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/resource/cv2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/cvUpdatePhones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/resource/cvUpdatePhones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/forUnhideAllTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/resource/forUnhideAllTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/hidePhone.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/resource/hidePhone.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/hideTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/resource/hideTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/phones.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/resource/phones.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/updateCV.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/resource/updateCV.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/wrongCV.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/resource/wrongCV.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/java/ru.edu.java.tasks/CurriculumVitaeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/ru/edu/java/tasks/CurriculumVitaeTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +23,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TreeNodeTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TreeNodeTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/test/ru/edu/java/tasks/TreeNodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2490">
-              <caret line="166" column="16" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
+            <state relative-caret-position="2397">
+              <caret line="197" column="29" selection-start-line="197" selection-start-column="29" selection-end-line="197" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurriculumVitaeImpTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/CurriculumVitaeImpTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="225" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="225" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurriculumVitaeTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/ru/edu/java/tasks/CurriculumVitaeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3285">
+              <caret line="219" column="99" selection-start-line="219" selection-start-column="99" selection-end-line="219" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,6 +104,7 @@
         <option value="$PROJECT_DIR$/modules/OOP/ComplexNumber/src/test/ru/edu/java/tasks/ComplexNumberTest.java" />
         <option value="$PROJECT_DIR$/modules/OOP/Employee/src/test/ru/edu/java/tasks/EmployeeTest.java" />
         <option value="$PROJECT_DIR$/modules/OOP/TreeNode/src/test/ru/edu/java/tasks/TreeNodeTest.java" />
+        <option value="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/ru/edu/java/tasks/CurriculumVitaeTest.java" />
       </list>
     </option>
   </component>
@@ -119,29 +141,29 @@
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
+              <item name="TextHandling" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
+              <item name="TextHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="CurriculumVitae" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
+              <item name="TextHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="CurriculumVitae" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
+              <item name="TextHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="CurriculumVitae" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -149,8 +171,8 @@
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
+              <item name="TextHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="CurriculumVitae" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -159,8 +181,8 @@
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
+              <item name="TextHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="CurriculumVitae" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -170,31 +192,18 @@
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TextHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="CurriculumVitae" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TextHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="CurriculumVitae" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studentTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studentTasks" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="TreeNode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="TreeNodeTest" type="1a9f42e2:ClassTreeNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,10 +213,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/modules/OOP/TreeNode/src/test" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/modules/TextHandling/WordCounter/test" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/resource" />
       <recent name="$PROJECT_DIR$/modules/JavaAPITasks/Reflections/src/test/resource" />
       <recent name="$PROJECT_DIR$/modules/JavaAPITasks/Checker/src/test/resource" />
       <recent name="$PROJECT_DIR$/modules/JavaAPITasks/BusinessCard/src/test/resources" />
@@ -225,32 +235,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreeNodeTest">
+  <component name="RunManager" selected="JUnit.WordCounterTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="ArrayVectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studentTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.edu.java.tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
-      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.ArrayVectorTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="ComplexNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studentTasks" />
@@ -264,6 +251,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
       <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.ComplexNumberTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="CurriculumVitaeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studentTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.edu.java.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
+      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.CurriculumVitaeTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -298,29 +308,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ReflectionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studentTasks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.edu.java.tasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
-      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.ReflectionsTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="TreeNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studentTasks" />
       <extension name="coverage">
@@ -333,6 +320,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
       <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.TreeNodeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="WordCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studentTasks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.edu.java.tasks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ru.edu.java.tasks" />
+      <option name="MAIN_CLASS_NAME" value="ru.edu.java.tasks.WordCounterTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -383,19 +393,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ReflectionsTest" />
-      <item itemvalue="JUnit.ArrayVectorTest" />
       <item itemvalue="JUnit.ComplexNumberTest" />
       <item itemvalue="JUnit.EmployeeTest" />
       <item itemvalue="JUnit.TreeNodeTest" />
+      <item itemvalue="JUnit.CurriculumVitaeTest" />
+      <item itemvalue="JUnit.WordCounterTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WordCounterTest" />
+        <item itemvalue="JUnit.CurriculumVitaeTest" />
         <item itemvalue="JUnit.TreeNodeTest" />
         <item itemvalue="JUnit.EmployeeTest" />
         <item itemvalue="JUnit.ComplexNumberTest" />
-        <item itemvalue="JUnit.ArrayVectorTest" />
-        <item itemvalue="JUnit.ReflectionsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -416,9 +426,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckerTest_fetchAllTemplatesEmailsTest - 2018.06.23 at 00h 29m 43s.xml">
-      <configuration name="CheckerTest.fetchAllTemplatesEmailsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CheckerTest_fetchAllTemplatesEmailsTest - 2018.06.23 at 00h 30m 03s.xml">
       <configuration name="CheckerTest.fetchAllTemplatesEmailsTest" configurationId="JUnit" />
     </history-entry>
@@ -446,9 +453,12 @@
     <history-entry file="TreeNodeTest - 2018.06.23 at 01h 00m 35s.xml">
       <configuration name="TreeNodeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TreeNodeTest - 2018.06.23 at 01h 02m 12s.xml">
+      <configuration name="TreeNodeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53002000" />
+    <option name="totallyTimeSpent" value="53459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1858" y="-355" width="1815" height="1127" extended-state="0" />
@@ -463,9 +473,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29890764" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29890764" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.35948363" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.35948363" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25267908" />
@@ -513,23 +523,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/TextHandling/WordCounter/src/main/java/ru.edu.java.tasks/WordCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/ArrayVector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -574,7 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImp.java" />
     <entry file="file://$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/ArrayVectorTest.java" />
     <entry file="file://$PROJECT_DIR$/modules/OOP/ArrayVector/src/main/java/ru.edu.java.tasks/ArrayVectorImp.java" />
     <entry file="file://$PROJECT_DIR$/modules/OOP/ComplexNumber/src/main/java/ru.edu.java.tasks/ComplexNumberImp.java" />
@@ -709,13 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/CurriculumVitaeImpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2702">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -797,10 +782,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/main/java/ru.edu.java.tasks/TreeNodeImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="125" column="20" selection-start-line="125" selection-start-column="20" selection-end-line="125" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/OOP/TreeNode/src/test/ru/edu/java/tasks/TreeNodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2490">
-          <caret line="166" column="16" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
+        <state relative-caret-position="2397">
+          <caret line="197" column="29" selection-start-line="197" selection-start-column="29" selection-end-line="197" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/CurriculumVitaeImpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="225" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="225" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/resource/cv.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/ru/edu/java/tasks/CurriculumVitaeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3285">
+          <caret line="219" column="99" selection-start-line="219" selection-start-column="99" selection-end-line="219" selection-end-column="99" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
