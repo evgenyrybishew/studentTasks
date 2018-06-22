@@ -3,7 +3,6 @@ package ru.edu.java.tasks;
 import org.junit.Assert;
 import org.junit.Test;
 
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -11,9 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
-
-public class CheckerImpTest {
-
+public class CheckerTest {
     Checker checker = new CheckerImp();
 
     @Test
@@ -108,8 +105,8 @@ public class CheckerImpTest {
     @Test
     public void fetchAllTemplatesEmailsTest() throws IOException {
 
-        StringBuffer emails = stringBufferCreater("modules/JavaAPITasks/Checker/src/main/java/ru/edu/java/tasks/emails.txt");
-        StringBuffer emailsMatch = stringBufferCreater("modules/JavaAPITasks/Checker/src/main/java/ru/edu/java/tasks/emailsMatch.txt");
+        StringBuffer emails = stringBufferCreater("modules/JavaAPITasks/Checker/src/test/resource/emails.txt");
+        StringBuffer emailsMatch = stringBufferCreater("modules/JavaAPITasks/Checker/src/test/resource/emailsMatch.txt");
 
         ArrayList<String> result = (ArrayList<String>) checker.fetchAllTemplates(emails, checker.getEMailPattern());
         ArrayList<String> match = (ArrayList<String>) doStringarray(emailsMatch);
@@ -121,8 +118,8 @@ public class CheckerImpTest {
     @Test
     public void fetchAllTemplatesPLSQLTest() throws IOException {
 
-        StringBuffer plsql = stringBufferCreater("modules/JavaAPITasks/Checker/src/main/java/ru/edu/java/tasks/PLSQL.txt");
-        StringBuffer plsqlMatch = stringBufferCreater("modules/JavaAPITasks/Checker/src/main/java/ru/edu/java/tasks/PLSQLMatch.txt");
+        StringBuffer plsql = stringBufferCreater("modules/JavaAPITasks/Checker/src/test/resource/PLSQL.txt");
+        StringBuffer plsqlMatch = stringBufferCreater("modules/JavaAPITasks/Checker/src/test/resource/PLSQLMatch.txt");
 
         ArrayList<String> result = (ArrayList<String>) checker.fetchAllTemplates(plsql, checker.getPLSQLNamesPattern());
         ArrayList<String> match = (ArrayList<String>) doStringarray(plsqlMatch);
@@ -133,8 +130,8 @@ public class CheckerImpTest {
     @Test
     public void fetchAllTemplatesURLTest() throws IOException {
 
-        StringBuffer urls = stringBufferCreater("modules/JavaAPITasks/Checker/src/main/java/ru/edu/java/tasks/urls.html");
-        StringBuffer urlsMatch = stringBufferCreater("modules/JavaAPITasks/Checker/src/main/java/ru/edu/java/tasks/urlsMatch.txt");
+        StringBuffer urls = stringBufferCreater("modules/JavaAPITasks/Checker/src/test/resource/urls.html");
+        StringBuffer urlsMatch = stringBufferCreater("modules/JavaAPITasks/Checker/src/test/resource/urlsMatch.txt");
 
         ArrayList<String> result = (ArrayList<String>) checker.fetchAllTemplates(urls, checker.getHrefURLPattern());
         ArrayList<String> match = (ArrayList<String>) doStringarray(urlsMatch);

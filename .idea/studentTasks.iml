@@ -14,6 +14,8 @@
       <sourceFolder url="file://$MODULE_DIR$/modules/JavaAPITasks/Checker/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/modules/JavaAPITasks/Reflections/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/modules/TextHandling/CurriculumVitae/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/JavaAPITasks/BusinessCard/src/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/JavaAPITasks/Checker/src/test" isTestSource="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

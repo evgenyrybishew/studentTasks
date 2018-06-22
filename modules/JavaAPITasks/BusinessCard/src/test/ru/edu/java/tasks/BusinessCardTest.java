@@ -7,14 +7,13 @@ import java.io.File;
 import java.lang.reflect.Field;
 import java.util.*;
 
-public class BusinessCardImpTest {
-
+public class BusinessCardTest {
 
     @Test
     public void getBusinessCardTest() throws Exception {
 
         BusinessCard card = new BusinessCardImp();
-        Scanner in = new Scanner(new File("studentTasks/modules/JavaAPITasks/BusinessCard/src/main/java/ru/edu/java/tasks/test.txt"));
+        Scanner in = new Scanner(new File("modules/JavaAPITasks/BusinessCard/src/test/resources/test.txt"));
         card.getBusinessCard(in);
 
         Field field = card.getClass().getDeclaredField("name");
@@ -60,7 +59,7 @@ public class BusinessCardImpTest {
     @Test
     public void getBusinessCardTestWrongTel() throws Exception {
         BusinessCard card = new BusinessCardImp();
-        Scanner in = new Scanner(new File("/Users/mac/Developer/Projects/Java Projects/studentTasks/modules/JavaAPITasks/BusinessCard/src/main/java/ru/edu/java/tasks/wrong1.txt"));
+        Scanner in = new Scanner(new File("modules/JavaAPITasks/BusinessCard/src/test/resources/wrong1.txt"));
         boolean wrong = false;
         try {
             card.getBusinessCard(in);
@@ -73,7 +72,7 @@ public class BusinessCardImpTest {
     @Test
     public void getBusinessCardTestWrongSalary() throws Exception {
         BusinessCard card = new BusinessCardImp();
-        Scanner in = new Scanner(new File("/Users/mac/Developer/Projects/Java Projects/studentTasks/modules/JavaAPITasks/BusinessCard/src/main/java/ru/edu/java/tasks/wrong2.txt"));
+        Scanner in = new Scanner(new File("modules/JavaAPITasks/BusinessCard/src/test/resources/wrong2.txt"));
         boolean wrong = false;
         try {
             card.getBusinessCard(in);
@@ -86,7 +85,7 @@ public class BusinessCardImpTest {
     @Test
     public void getBusinessCardTestWrongGender() throws Exception {
         BusinessCard card = new BusinessCardImp();
-        Scanner in = new Scanner(new File("/Users/mac/Developer/Projects/Java Projects/studentTasks/modules/JavaAPITasks/BusinessCard/src/main/java/ru/edu/java/tasks/wrong3.txt"));
+        Scanner in = new Scanner(new File("modules/JavaAPITasks/BusinessCard/src/test/resources/wrong3.txt"));
         boolean wrong = false;
         try {
             card.getBusinessCard(in);
@@ -99,7 +98,7 @@ public class BusinessCardImpTest {
     @Test
     public void getBusinessCardTestnIputMismatchException() throws Exception {
         BusinessCard card = new BusinessCardImp();
-        Scanner in = new Scanner(new File("/Users/mac/Developer/Projects/Java Projects/studentTasks/modules/JavaAPITasks/BusinessCard/src/main/java/ru/edu/java/tasks/wrong4.txt"));
+        Scanner in = new Scanner(new File("modules/JavaAPITasks/BusinessCard/src/test/resources/wrong4.txt"));
         boolean wrong = false;
         try {
             card.getBusinessCard(in);
@@ -170,4 +169,5 @@ public class BusinessCardImpTest {
         Assert.assertTrue(card.getPhoneNumber().equals("+7 123-456-78-90"));
 
     }
+
 }
