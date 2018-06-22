@@ -192,8 +192,7 @@ public class CurriculumVitaeImp implements CurriculumVitae {
     }
 
 
-    private void hideContent(String content, String regex) {
-
+    private void hideContent(String content, String regex) throws IllegalArgumentException, IllegalStateException {
         Pattern pattern = Pattern.compile(content);
         Matcher matcher = pattern.matcher(this.text);
 
@@ -212,20 +211,23 @@ public class CurriculumVitaeImp implements CurriculumVitae {
     @Override
     public void hide(String piece) throws IllegalArgumentException, IllegalStateException {
         if (this.text == null)
-            throw new IllegalThreadStateException();
+            throw new IllegalStateException();
         hideContent(piece, "[^\\.,@ ]");
     }
 
     @Override
     public void hidePhone(String phone) throws IllegalArgumentException, IllegalStateException {
         if (this.text == null)
-            throw new IllegalThreadStateException();
+            throw new IllegalStateException();
         hideContent(phone, "[0-9]");
 
     }
 
     @Override
     public int unhideAll() throws IllegalStateException {
+        if (this.text == null)
+            throw new IllegalStateException();
+
         int counter = 0;
 
         for (Map.Entry<String, String> entry : this.hiddenInfo.entrySet()) {
