@@ -9,9 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
-
-public class ReflectionsImpTest {
-
+public class ReflectionsTest {
     Reflections ref = new ReflectionsImp();
 
     @Test
@@ -86,9 +84,12 @@ public class ReflectionsImpTest {
         for (Method m : methodSet)
             methodSetConvert.add(m.getName());
 
-        String result = readFile("modules/JavaAPITasks/Reflections/src/main/java/ru/edu/java/tasks/methods.txt");
+        String result = readFile("modules/JavaAPITasks/Reflections/src/test/resource/methods.txt");
         Assert.assertTrue(matchStringAndSet(result, methodSetConvert));
     }
+
+
+
 
     @Test
     public void getExtendsHierarchyTest() throws Exception {
@@ -108,7 +109,7 @@ public class ReflectionsImpTest {
         ArrayList<String> interfacesSetConvert = new ArrayList<>();
         for (Class c : list)
             interfacesSetConvert.add(c.getSimpleName());
-        String result = readFile("modules/JavaAPITasks/Reflections/src/main/java/ru/edu/java/tasks/interfaces.txt");
+        String result = readFile("modules/JavaAPITasks/Reflections/src/test/resource/interfaces.txt");
         Assert.assertTrue(matchStringAndSet(result, interfacesSetConvert));
     }
 
@@ -125,7 +126,7 @@ public class ReflectionsImpTest {
         for (Class c : ex)
             exSetConvert.add(c.getSimpleName());
 
-        String result = readFile("modules/JavaAPITasks/Reflections/src/main/java/ru/edu/java/tasks/exception.txt");
+        String result = readFile("modules/JavaAPITasks/Reflections/src/test/resource/exception.txt");
         Assert.assertTrue(matchStringAndSet(result, exSetConvert));
 
     }
