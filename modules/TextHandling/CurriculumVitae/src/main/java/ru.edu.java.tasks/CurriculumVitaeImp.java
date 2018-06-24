@@ -12,12 +12,12 @@ public class CurriculumVitaeImp implements CurriculumVitae {
 
 
     public CurriculumVitaeImp() {
-        this.text = null;
-        hiddenInfo = new HashMap<String, String>();
+//        this.text = null;
+        hiddenInfo = new HashMap<>();
     }
 
     public CurriculumVitaeImp(String text) {
-        this();
+        this.hiddenInfo = new HashMap<>();
         this.text = text;
     }
 
@@ -192,15 +192,16 @@ public class CurriculumVitaeImp implements CurriculumVitae {
     }
 
 
+
     private void hideContent(String content, String regex) throws IllegalArgumentException, IllegalStateException {
         Pattern pattern = Pattern.compile(content);
         Matcher matcher = pattern.matcher(this.text);
 
         if (matcher.find()) {
-            String hiddeText = content.replaceAll(regex, "X");
-            if (!this.hiddenInfo.containsKey(hiddeText)) {
-                this.hiddenInfo.put(hiddeText, content);
-                this.text = matcher.replaceAll(hiddeText);
+            String hiddenText = content.replaceAll(regex, "X");
+            if (!this.hiddenInfo.containsKey(hiddenText)) {
+                this.hiddenInfo.put(hiddenText, content);
+                this.text = matcher.replaceAll(hiddenText);
             }
         } else {
             throw new IllegalArgumentException();

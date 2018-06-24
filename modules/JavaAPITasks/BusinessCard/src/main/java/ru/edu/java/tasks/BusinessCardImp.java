@@ -15,7 +15,8 @@ public class BusinessCardImp implements BusinessCard {
 
     public BusinessCardImp(){}
 
-    public BusinessCardImp(String name, String lastname, String department, Calendar birthDate, String gender, int salary, String tel) {
+    public BusinessCardImp(String name, String lastname, String department, Calendar birthDate, String gender,
+                           int salary, String tel) {
         this.name = name;
         this.lastname = lastname;
         this.department = department;
@@ -27,6 +28,8 @@ public class BusinessCardImp implements BusinessCard {
 
     @Override
     public BusinessCard getBusinessCard(Scanner scanner) throws NoSuchElementException, InputMismatchException {
+
+
         final int FIELDS = 7;
         String[] data = scanner.nextLine().split(";");
         if (data.length == FIELDS) {
@@ -41,19 +44,22 @@ public class BusinessCardImp implements BusinessCard {
             if (data[4].equals("M") || data[4].equals("F"))
                 this.gender = data[4];
             else
-                throw new NoSuchElementException("Invalid value for gender!");
+                throw new InputMismatchException("Invalid value for gender!");
 
+            if(!isDigit(data[5]))
+                throw new InputMismatchException("Invalid value for salary!");
             int checkSalary = Integer.valueOf(data[5]);
+
             if(checkSalary < 100 || checkSalary > 100000)
-                throw new NoSuchElementException("Invalid value for salary!");
+                throw new InputMismatchException("Invalid value for salary!");
             this.salary = checkSalary;
 
             if(data[6].length() != 10 || !isDigit(data[6]))
-                throw new NoSuchElementException("Invalid value for phone!");
+                throw new InputMismatchException("Invalid value for phone!");
             this.tel = data[6];
             return  this;
         }
-        throw new InputMismatchException();
+        throw new NoSuchElementException();
     }
 
 
@@ -100,7 +106,8 @@ public class BusinessCardImp implements BusinessCard {
 
     @Override
     public String getPhoneNumber() {
-        return "+7 " + this.tel.substring(0, 3) + "-" + this.tel.substring(3,6) + "-" + this.tel.substring(6,8) + "-" + tel.substring(8);
+        return "+7 " + this.tel.substring(0, 3) + "-" + this.tel.substring(3,6) + "-" + this.tel.substring(6,8) + "-" +
+                tel.substring(8);
     }
 
 }

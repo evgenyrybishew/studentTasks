@@ -9,57 +9,59 @@ import java.util.*;
 
 public class BusinessCardTest {
 
+    //TODO: ✔ Переименовал файлы ресурсов
     @Test
     public void getBusinessCardTest() throws Exception {
-
+        //TODO: ✔ рефактор Field
+        //TODO: ✔ заменить temp на более подходящее именование сущности
         BusinessCard card = new BusinessCardImp();
         Scanner in = new Scanner(new File("modules/JavaAPITasks/BusinessCard/src/test/resources/test.txt"));
         card.getBusinessCard(in);
 
-        Field field = card.getClass().getDeclaredField("name");
-        field.setAccessible(true);
-        String temp = (String) field.get(card);
-        Assert.assertTrue(temp.equals("Chuck"));
+        Field fieldName = card.getClass().getDeclaredField("name");
+        fieldName.setAccessible(true);
+        String name = (String) fieldName.get(card);
+        Assert.assertTrue(name.equals("Chuck"));
 
-        field = card.getClass().getDeclaredField("lastname");
-        field.setAccessible(true);
-        temp = (String) field.get(card);
-        Assert.assertTrue(temp.equals("Norris"));
+        Field fieldLastName = card.getClass().getDeclaredField("lastname");
+        fieldLastName.setAccessible(true);
+        String lastname = (String) fieldLastName.get(card);
+        Assert.assertTrue(lastname.equals("Norris"));
 
-        field = card.getClass().getDeclaredField("department");
-        field.setAccessible(true);
-        temp = (String) field.get(card);
-        Assert.assertTrue(temp.equals("DSI"));
+        Field fieldDepartment = card.getClass().getDeclaredField("department");
+        fieldDepartment.setAccessible(true);
+        String department = (String) fieldDepartment.get(card);
+        Assert.assertTrue(department.equals("DSI"));
 
-        field = card.getClass().getDeclaredField("birthDate");
-        field.setAccessible(true);
-        Calendar bd = (Calendar) field.get(card);
+        Field fieldBirthDate = card.getClass().getDeclaredField("birthDate");
+        fieldBirthDate.setAccessible(true);
+        Calendar bd = (Calendar) fieldBirthDate.get(card);
 
         Assert.assertEquals(bd.get(Calendar.DAY_OF_MONTH), 10);
         Assert.assertEquals(bd.get(Calendar.MONTH), 4);
         Assert.assertEquals(bd.get(Calendar.YEAR), 1940);
 
-        field = card.getClass().getDeclaredField("gender");
-        field.setAccessible(true);
-        temp = (String) field.get(card);
-        Assert.assertTrue(temp.equals("M"));
+        Field fieldGender = card.getClass().getDeclaredField("gender");
+        fieldGender.setAccessible(true);
+        String gender = (String) fieldGender.get(card);
+        Assert.assertTrue(gender.equals("M"));
 
-        field = card.getClass().getDeclaredField("salary");
-        field.setAccessible(true);
-        int salary = (int) field.get(card);
+        Field fieldSalary = card.getClass().getDeclaredField("salary");
+        fieldSalary.setAccessible(true);
+        int salary = (int) fieldSalary.get(card);
         Assert.assertEquals(1000, salary);
 
-        field = card.getClass().getDeclaredField("tel");
-        field.setAccessible(true);
-        temp = (String) field.get(card);
-        Assert.assertTrue(temp.equals("1234567890"));
+        Field fieldTel = card.getClass().getDeclaredField("tel");
+        fieldTel.setAccessible(true);
+        String tel = (String) fieldTel.get(card);
+        Assert.assertTrue(tel.equals("1234567890"));
     }
 
 
     @Test
     public void getBusinessCardTestWrongTel() throws Exception {
         BusinessCard card = new BusinessCardImp();
-        Scanner in = new Scanner(new File("modules/JavaAPITasks/BusinessCard/src/test/resources/wrong1.txt"));
+        Scanner in = new Scanner(new File("modules/JavaAPITasks/BusinessCard/src/test/resources/wrongPhone.txt"));
         boolean wrong = false;
         try {
             card.getBusinessCard(in);
@@ -72,7 +74,7 @@ public class BusinessCardTest {
     @Test
     public void getBusinessCardTestWrongSalary() throws Exception {
         BusinessCard card = new BusinessCardImp();
-        Scanner in = new Scanner(new File("modules/JavaAPITasks/BusinessCard/src/test/resources/wrong2.txt"));
+        Scanner in = new Scanner(new File("modules/JavaAPITasks/BusinessCard/src/test/resources/wrongSalary.txt"));
         boolean wrong = false;
         try {
             card.getBusinessCard(in);
@@ -85,7 +87,7 @@ public class BusinessCardTest {
     @Test
     public void getBusinessCardTestWrongGender() throws Exception {
         BusinessCard card = new BusinessCardImp();
-        Scanner in = new Scanner(new File("modules/JavaAPITasks/BusinessCard/src/test/resources/wrong3.txt"));
+        Scanner in = new Scanner(new File("modules/JavaAPITasks/BusinessCard/src/test/resources/wrongGenger.txt"));
         boolean wrong = false;
         try {
             card.getBusinessCard(in);
@@ -98,7 +100,7 @@ public class BusinessCardTest {
     @Test
     public void getBusinessCardTestnIputMismatchException() throws Exception {
         BusinessCard card = new BusinessCardImp();
-        Scanner in = new Scanner(new File("modules/JavaAPITasks/BusinessCard/src/test/resources/wrong4.txt"));
+        Scanner in = new Scanner(new File("modules/JavaAPITasks/BusinessCard/src/test/resources/inputMismatchException.txt"));
         boolean wrong = false;
         try {
             card.getBusinessCard(in);

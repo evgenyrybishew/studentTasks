@@ -35,7 +35,7 @@ public class CheckerTest {
         boolean result = checker.checkAccordance("<a href = google.com>google</a>", pattern);
         Assert.assertTrue(result);
 
-        result = checker.checkAccordance("<a href=\"test.html\">This line contains <strong>bold</strong> text.<a>", pattern);
+        result = checker.checkAccordance("<a a href=\"test.html\">This line contains <strong>bold</strong> text.<a>", pattern);
         Assert.assertTrue(result);
 
         result = checker.checkAccordance("<img href=\"img.png\"/>", pattern);
@@ -45,12 +45,13 @@ public class CheckerTest {
         Assert.assertTrue(result);
     }
 
-
+    //TODO test если email более 22 символов
+    //TODO тесты на негативный исход
     @Test
     public void checkAccordanceEmailTest() {
 
         Pattern pattern = checker.getEMailPattern();
-        boolean result = checker.checkAccordance("dev.user@mail.com", pattern);
+        boolean result = checker.checkAccordance("dev.user@mail.sbrf.ru.edu.smthelse", pattern);
         Assert.assertTrue(result);
 
         result = checker.checkAccordance("dev_user-93@mail.com", pattern);

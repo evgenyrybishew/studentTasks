@@ -7,22 +7,26 @@ import java.util.List;
 import java.util.Set;
 
 public class ReflectionsImp implements Reflections {
-
-
+    //TODO: ✔ привеси реализацию методов к заданному интерфейсу
     @Override
     public Object getFieldValueByName(Object object, String fieldName)
-            throws NoSuchFieldException, IllegalAccessException, NullPointerException {
+            throws NoSuchFieldException {
 
         if (object == null || fieldName == null)
             throw new NullPointerException();
 
         Field field = object.getClass().getDeclaredField(fieldName);
         field.setAccessible(true);
-        return field.get(object);
+        try {
+            return field.get(object);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+            throw new NoSuchFieldException(e.getMessage());
+        }
     }
 
     @Override
-    public Set<String> getProtectedMethodNames(Class clazz) throws NullPointerException {
+    public Set<String> getProtectedMethodNames(Class clazz) {
         if (clazz == null)
             throw new NullPointerException();
         Set<String> result = new HashSet<>();
@@ -45,8 +49,9 @@ public class ReflectionsImp implements Reflections {
         for (Method m : methods)
             result.add(m);
 
-        if (clazz.getSuperclass() != null)
-            result.addAll(getAllImplementedMethodsWithSupers(clazz.getSuperclass()));
+        Class superClass = clazz.getSuperclass();
+        if (superClass != null)
+            result.addAll(getAllImplementedMethodsWithSupers(superClass));
         return result;
     }
 
@@ -67,53 +72,56 @@ public class ReflectionsImp implements Reflections {
 
     @Override
     public Set<Class> getImplementedInterfaces(Class clazz) {
-
         Set<Class> result = new HashSet<>();
-        Class[] interfaces = clazz.getInterfaces();
-        for (Class c : interfaces)
+        for (Class c : clazz.getInterfaces())
             result.add(c);
         return result;
-
     }
 
     @Override
     public List<Class> getThrownExceptions(Method method) {
-        Class[] ex = method.getExceptionTypes();
         List<Class> result = new ArrayList<>();
 
-        for (Class c : ex)
+        for (Class c : method.getExceptionTypes())
             result.add(c);
         return result;
     }
 
     @Override
-    public String getFooFunctionResultForDefaultConstructedClass()
-            throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
-
+    public String getFooFunctionResultForDefaultConstructedClass(){
         Class clazz = SecretClass.class;
-
-        Constructor constructor = clazz.getDeclaredConstructor();
-        constructor.setAccessible(true);
-        Object sectetClassInstance = constructor.newInstance();
-        Method methodFoo = clazz.getDeclaredMethod("foo");
-        methodFoo.setAccessible(true);
-
-        return (String) methodFoo.invoke(sectetClassInstance);
+        try{
+            Constructor constructor = clazz.getDeclaredConstructor();
+            constructor.setAccessible(true);
+            Object sectetClassInstance = constructor.newInstance();
+            Method methodFoo = clazz.getDeclaredMethod("foo");
+            methodFoo.setAccessible(true);
+            return (String) methodFoo.invoke(sectetClassInstance);
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+            return null;
+        }
 
     }
 
     @Override
-    public String getFooFunctionResultForClass(String constructorParameter, String string, Integer... integers)
-            throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
+    public String getFooFunctionResultForClass(String constructorParameter, String string, Integer... integers){
         Class clazz = SecretClass.class;
 
-        Constructor constructor = clazz.getDeclaredConstructor(constructorParameter.getClass());
-        constructor.setAccessible(true);
-        Object sectetClassInstance = constructor.newInstance(constructorParameter);
-        Method methodFoo = clazz.getDeclaredMethod("foo", string.getClass(), integers.getClass());
-        methodFoo.setAccessible(true);
+        try {
+            Constructor constructor = clazz.getDeclaredConstructor(constructorParameter.getClass());
+            constructor.setAccessible(true);
+            Object sectetClassInstance = constructor.newInstance(constructorParameter);
+            Method methodFoo = clazz.getDeclaredMethod("foo", string.getClass(), integers.getClass());
+            methodFoo.setAccessible(true);
 
-        return (String) methodFoo.invoke(sectetClassInstance, string, integers);
+            return (String) methodFoo.invoke(sectetClassInstance, string, integers);
+        }catch (Exception e){
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+            return null;
+        }
     }
 }
 

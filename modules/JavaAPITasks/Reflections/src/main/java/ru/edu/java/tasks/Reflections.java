@@ -28,7 +28,7 @@ public interface Reflections {
      * @throws NoSuchFieldException если поля с указанным именем не существует
      * @throws NullPointerException если fieldName or object является null-ом
      */
-    public Object getFieldValueByName(Object object, String fieldName) throws NoSuchFieldException, IllegalAccessException;
+    public Object getFieldValueByName(Object object, String fieldName) throws NoSuchFieldException;
 
     /**
      * Метод возвращает набор имен методов для класса, помеченных идентификатором protected

@@ -13,11 +13,12 @@ public class CheckerImp implements Checker {
         return Pattern.compile("[A-Za-z][\\w_$]{0,29}");
     }
 
+    //fix
     @Override
     public Pattern getHrefURLPattern() {
-        return Pattern.compile("<a[\\s]+([^>]+)>((?:.)*)<([/]||[\\s])a>");
+        return Pattern.compile("<[\\s]{0,1}a[\\s]+([^>]+)>((?:.)*)<([/]||[\\s])a>");
     }
-
+    //fix
     @Override
     public Pattern getEMailPattern() {
         return Pattern.compile("[a-zA-Z0-9](|[\\w-_\\.]{0,20}[a-zA-Z0-9])@([a-zA-Z0-9](|[\\w-]*[\\w])\\.){1,100000000}(ru|com|net|org)");
