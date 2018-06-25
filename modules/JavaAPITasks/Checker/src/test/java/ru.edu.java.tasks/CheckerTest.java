@@ -35,7 +35,7 @@ public class CheckerTest {
         boolean result = checker.checkAccordance("<a href = google.com>google</a>", pattern);
         Assert.assertTrue(result);
 
-        result = checker.checkAccordance("<a a href=\"test.html\">This line contains <strong>bold</strong> text.<a>", pattern);
+        result = checker.checkAccordance("<a href=\"test.html\">This line contains <strong>bold</strong> text.<a>", pattern);
         Assert.assertTrue(result);
 
         result = checker.checkAccordance("<img href=\"img.png\"/>", pattern);
@@ -43,22 +43,57 @@ public class CheckerTest {
 
         result = checker.checkAccordance("<a href=test.html>index.html<a>", pattern);
         Assert.assertTrue(result);
+
+        result = checker.checkAccordance("<A HREF=test.html>index.html<A>", pattern);
+        Assert.assertTrue(result);
+
+        result = checker.checkAccordance("<A\tHREF\t=\ttest.html\t>index.html<A>", pattern);
+        Assert.assertTrue(result);
+
+        result = checker.checkAccordance("<A  HREF  =  test.html  >index.html<A>", pattern);
+        Assert.assertFalse(result);
+
+        result = checker.checkAccordance("<a\nhref=test.html\n>index.html<a>", pattern);
+        Assert.assertTrue(result);
+
+        result = checker.checkAccordance("<a\nhref=test.html\n\n>index.html<a>", pattern);
+        Assert.assertFalse(result);
+
     }
 
-    //TODO test если email более 22 символов
-    //TODO тесты на негативный исход
+    //TODO: ✓ тест если email(аккаунт) более 22 символов
+    //TODO: ✓ тесты на негативный исход
     @Test
     public void checkAccordanceEmailTest() {
 
         Pattern pattern = checker.getEMailPattern();
-        boolean result = checker.checkAccordance("dev.user@mail.sbrf.ru.edu.smthelse", pattern);
+        boolean result = checker.checkAccordance("user@maiil.spb.ru", pattern);
         Assert.assertTrue(result);
 
         result = checker.checkAccordance("dev_user-93@mail.com", pattern);
         Assert.assertTrue(result);
 
-        result = checker.checkAccordance("dev_user-93mail.com", pattern);
+        result = checker.checkAccordance("user@number.1th.net", pattern);
+        Assert.assertTrue(result);
+
+        result = checker.checkAccordance("user23@mail.a-d.ru", pattern);
+        Assert.assertTrue(result);
+
+        result = checker.checkAccordance("my-test-post@mail.java.sber.ru", pattern);
+        Assert.assertTrue(result);
+
+        result = checker.checkAccordance("1user@mail.com", pattern);
+        Assert.assertTrue(result);
+
+        result = checker.checkAccordance("wrongAmail.q.ru", pattern);
         Assert.assertFalse(result);
+
+        result = checker.checkAccordance("myMail.ru", pattern);
+        Assert.assertFalse(result);
+
+        result = checker.checkAccordance("aaaaaaaaaaaaaaaaaaaaaaaaa@mail.org", pattern);
+        Assert.assertFalse(result);
+
     }
 
     @Test
@@ -130,13 +165,10 @@ public class CheckerTest {
 
     @Test
     public void fetchAllTemplatesURLTest() throws IOException {
-
         StringBuffer urls = stringBufferCreater("modules/JavaAPITasks/Checker/src/test/resource/urls.html");
         StringBuffer urlsMatch = stringBufferCreater("modules/JavaAPITasks/Checker/src/test/resource/urlsMatch.txt");
-
         ArrayList<String> result = (ArrayList<String>) checker.fetchAllTemplates(urls, checker.getHrefURLPattern());
         ArrayList<String> match = (ArrayList<String>) doStringarray(urlsMatch);
-
         Assert.assertArrayEquals(result.toArray(), match.toArray());
 
     }
