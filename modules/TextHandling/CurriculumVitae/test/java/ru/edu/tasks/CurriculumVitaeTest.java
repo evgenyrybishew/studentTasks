@@ -194,11 +194,12 @@ public class CurriculumVitaeTest {
         Assert.assertTrue(map.containsValue("sidorov.petr@mail.net"));
     }
 
-    //TODO: fix bug - IllegalArgumentException for (916)700-6964 cv.hide("\\)\\)\\(");
+    //TODO: ✔ fix bug - IllegalArgumentException for (916)700-6964 cv.hide("\\)\\)\\(");
     @Test
     public void hidePhoneTest() throws Exception {
         CurriculumVitae cv = new CurriculumVitaeImp(cvFileString);
         cv.hidePhone("999 123-45-67 ext.2345");
+        cv.hidePhone("(916)700-6964");
         cv.hidePhone("256-1004");
 
         Field field = cv.getClass().getDeclaredField("text");
@@ -211,6 +212,7 @@ public class CurriculumVitaeTest {
         Map<String, String> map = (Map<String, String>) field.get(cv);
         Assert.assertTrue(map.containsValue("999 123-45-67 ext.2345"));
         Assert.assertTrue(map.containsValue("256-1004"));
+        Assert.assertTrue(map.containsValue("(916)700-6964"));
 
     }
 

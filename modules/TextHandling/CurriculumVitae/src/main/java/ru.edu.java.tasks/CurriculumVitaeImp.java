@@ -12,7 +12,6 @@ public class CurriculumVitaeImp implements CurriculumVitae {
 
 
     public CurriculumVitaeImp() {
-//        this.text = null;
         hiddenInfo = new HashMap<>();
     }
 
@@ -191,10 +190,29 @@ public class CurriculumVitaeImp implements CurriculumVitae {
         }
     }
 
+    private boolean isSpecialSymbol(char symbol){
+        char[] symbpls = "!$()*+.<>?[]\\^{}|".toCharArray();
+        for(char c : symbpls)
+            if(c == symbol)
+                return true;
+        return false;
+    }
+
+
+    private String makePatternStr(String input){
+        StringBuffer maker = new StringBuffer(input);
+        for(int i = 0; i < input.length(); i++)
+            if(isSpecialSymbol(maker.charAt(i))) {
+                maker.insert(i, '\\');
+                input = maker.toString();
+                i++;
+            }
+        return maker.toString();
+    }
 
 
     private void hideContent(String content, String regex) throws IllegalArgumentException, IllegalStateException {
-        Pattern pattern = Pattern.compile(content);
+        Pattern pattern = Pattern.compile(makePatternStr(content));
         Matcher matcher = pattern.matcher(this.text);
 
         if (matcher.find()) {
