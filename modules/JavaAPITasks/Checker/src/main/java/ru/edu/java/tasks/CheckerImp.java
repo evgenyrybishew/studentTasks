@@ -13,15 +13,18 @@ public class CheckerImp implements Checker {
         return Pattern.compile("[A-Za-z][\\w_$]{0,29}");
     }
 
-    //fix
+    //TODO ✔ fix hrefURLPattern bug
     @Override
     public Pattern getHrefURLPattern() {
-        return Pattern.compile("<[\\s]{0,1}a[\\s]+([^>]+)>((?:.)*)<([/]||[\\s])a>");
+        return Pattern
+                .compile("<\\s?a\\s?href\\s?=\\s?(\"[^\"]*\"|[^\\s\">]*)\\s?>((?:.)*)<[\\s]?([/]||[\\s])[\\s]?a>",
+                        Pattern.CASE_INSENSITIVE);
     }
-    //fix
+    //TODO ✔ fix emailPattern bug
     @Override
     public Pattern getEMailPattern() {
-        return Pattern.compile("[a-zA-Z0-9](|[\\w-_\\.]{0,20}[a-zA-Z0-9])@([a-zA-Z0-9](|[\\w-]*[\\w])\\.){1,100000000}(ru|com|net|org)");
+        return Pattern
+                .compile("[a-zA-Z0-9](|[\\w-_\\.]{0,20}[a-zA-Z0-9])@([a-zA-Z](|[\\w-]*[\\w])\\.)([a-zA-Z0-1]+[\\-]*[a-zA-Z0-1]+\\.)*(ru|com|net|org)");
     }
 
     @Override
