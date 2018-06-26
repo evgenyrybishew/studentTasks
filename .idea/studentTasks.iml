@@ -30,6 +30,7 @@
       <sourceFolder url="file://$MODULE_DIR$/modules/OOP/TreeNode/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/modules/JavaAPITasks/WordProcessor/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/modules/JavaAPITasks/WordProcessor/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/JavaAPITasks/WordProcessor/src/test/resource" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
