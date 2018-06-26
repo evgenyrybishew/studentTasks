@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e2d8f48-c881-4860-b8b2-696a0561e0cc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/main/java/ru.edu.java.tasks/WordProcessor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/main/java/ru.edu.java.tasks/WordProcessorImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/java/ru.edu.java.tasks/WordProcessorTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/resource/text.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/resource/Б.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/resource/Вы.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/resource/За.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/XMLTasks/SimpleXML/src/main/java/ru/edu/java/tasks/SimpleXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/XMLTasks/SimpleXML/test/java/ru.edu.java.tasks/SimpleXMLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/ru/edu/java/tasks/WordProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/ru/edu/java/tasks/WordProcessorImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testOut/ru/edu/java/tasks/WordProcessorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testOut/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testOut/Б.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testOut/Вы.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testOut/За.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/studentTasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/studentTasks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/ru/edu/java/tasks/TreeNodeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/ru/edu/java/tasks/TreeNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/testOut/ru/edu/java/tasks/TreeNodeTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,24 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CurriculumVitae.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/CurriculumVitae.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-741">
-              <caret line="204" selection-start-line="204" selection-end-line="204" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#9698#9699#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordProcessorImp.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WordProcessorImp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/main/java/ru.edu.java.tasks/WordProcessorImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="71" column="63" lean-forward="true" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
+            <state relative-caret-position="240">
+              <caret line="16" column="54" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#465#466#0" expanded="true" />
@@ -52,72 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WordProcessorTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordProcessorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/java/ru.edu.java.tasks/WordProcessorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Б.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/resource/Б.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Вы.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/resource/Вы.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="За.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/resource/За.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurriculumVitaeImp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/CurriculumVitaeImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-681">
-              <caret line="80" column="53" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="53" />
-              <folding>
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/main/java/ru.edu.java.tasks/WordProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="59" column="36" selection-start-line="59" selection-start-column="15" selection-end-line="59" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="text.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/resource/text.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="38" lean-forward="true" selection-start-line="3" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="45">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -195,8 +133,8 @@
         <option value="$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/resource/Вы.txt" />
         <option value="$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/resource/За.txt" />
         <option value="$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/resource/Б.txt" />
-        <option value="$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/java/ru.edu.java.tasks/WordProcessorTest.java" />
         <option value="$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/main/java/ru.edu.java.tasks/WordProcessorImp.java" />
+        <option value="$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/java/ru.edu.java.tasks/WordProcessorTest.java" />
       </list>
     </option>
   </component>
@@ -608,15 +546,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WordProcessorTest_setSourceTest - 2018.06.26 at 23h 40m 41s.xml">
-      <configuration name="WordProcessorTest.setSourceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordProcessorTest - 2018.06.26 at 23h 40m 46s.xml">
-      <configuration name="WordProcessorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordProcessorTest_wordsStartWithTest - 2018.06.26 at 23h 44m 06s.xml">
-      <configuration name="WordProcessorTest.wordsStartWithTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WordProcessorTest_wordsStartWithTest - 2018.06.26 at 23h 56m 52s.xml">
       <configuration name="WordProcessorTest.wordsStartWithTest" configurationId="JUnit" />
     </history-entry>
@@ -638,9 +567,18 @@
     <history-entry file="WordProcessorTest_wordsStartWithTest - 2018.06.27 at 00h 17m 01s.xml">
       <configuration name="WordProcessorTest.wordsStartWithTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WordProcessorTest_wordsStartWithTest - 2018.06.27 at 00h 17m 14s.xml">
+      <configuration name="WordProcessorTest.wordsStartWithTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordProcessorTest_wordsStartWithTest - 2018.06.27 at 00h 17m 19s.xml">
+      <configuration name="WordProcessorTest.wordsStartWithTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordProcessorTest - 2018.06.27 at 00h 18m 08s.xml">
+      <configuration name="WordProcessorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82236000" />
+    <option name="totallyTimeSpent" value="82487000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -653,7 +591,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1827" y="-340" width="1657" height="1140" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.33529413" />
@@ -666,7 +603,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.36764705" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32843137" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.20196079" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20196079" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30216718" />
@@ -675,7 +612,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.53431374" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53431374" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="Designer" order="3" />
@@ -746,38 +683,38 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url />
+          <url>file://$PROJECT_DIR$/modules/JavaAPITasks/BusinessCard/src/test/java/ru/edu/java/tasks/BusinessCardTest.java</url>
           <line>28</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url />
+          <url>file://$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/java/ru/edu/tasks/CurriculumVitaeTest.java</url>
           <line>238</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url />
+          <url>file://$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/java/ru/edu/tasks/CurriculumVitaeTest.java</url>
           <line>77</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url />
+          <url>file://$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/test/java/ru/edu/tasks/CurriculumVitaeTest.java</url>
           <line>137</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url />
-          <line>71</line>
+          <url>file://$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/java/ru.edu.java.tasks/WordProcessorTest.java</url>
+          <line>69</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url />
-          <line>100</line>
+          <url>file://$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/java/ru.edu.java.tasks/WordProcessorTest.java</url>
+          <line>95</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
@@ -1088,7 +1025,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/TextHandling/CurriculumVitae/src/main/java/ru.edu.java.tasks/CurriculumVitae.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741">
+        <state relative-caret-position="-572">
           <caret line="204" selection-start-line="204" selection-end-line="204" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1097,10 +1034,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/java/ru.edu.java.tasks/WordProcessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/main/java/ru.edu.java.tasks/WordProcessorImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="71" column="63" lean-forward="true" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
+        <state relative-caret-position="240">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#465#466#0" expanded="true" />
@@ -1111,16 +1055,6 @@
             <element signature="e#484#485#0" expanded="true" />
             <element signature="e#409#410#0" expanded="true" />
             <element signature="e#439#440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/JavaAPITasks/WordProcessor/src/test/java/ru.edu.java.tasks/WordProcessorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
