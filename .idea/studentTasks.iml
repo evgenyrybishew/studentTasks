@@ -13,7 +13,6 @@
       <sourceFolder url="file://$MODULE_DIR$/modules/JavaAPITasks/BusinessCard/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/modules/JavaAPITasks/Checker/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/modules/JavaAPITasks/Reflections/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/modules/TextHandling/CurriculumVitae/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/modules/TextHandling/CurriculumVitae/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/modules/TextHandling/CurriculumVitae/test/resource" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/modules/JavaAPITasks/BusinessCard/src/test/resources" type="java-test-resource" />
@@ -31,6 +30,10 @@
       <sourceFolder url="file://$MODULE_DIR$/modules/JavaAPITasks/WordProcessor/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/modules/JavaAPITasks/WordProcessor/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/modules/JavaAPITasks/WordProcessor/src/test/resource" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/XMLTasks/SimpleXML/src/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/XMLTasks/SimpleXML/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/TextHandling/CurriculumVitae/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/XMLTasks/SimpleXML/test/resource" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
