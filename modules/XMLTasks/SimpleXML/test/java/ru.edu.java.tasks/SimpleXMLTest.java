@@ -39,5 +39,4 @@ public class SimpleXMLTest {
             Assert.assertTrue(fail);
         }
     }
-
 }

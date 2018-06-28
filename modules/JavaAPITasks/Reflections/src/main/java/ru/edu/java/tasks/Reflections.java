@@ -84,7 +84,7 @@ public interface Reflections {
      *
      * @return результат, который возвращает метод foo()
      */
-    public String getFooFunctionResultForDefaultConstructedClass() throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException;
+    public String getFooFunctionResultForDefaultConstructedClass();
 
     /**
      * Метод создает экземпляр класса SecretClass с помощью конструктора с параметром constructorParameter
@@ -95,7 +95,7 @@ public interface Reflections {
      * @param integers последующие аргументы для функции foo
      * @return результат, который возвращает метод foo(...)
      */
-    public String getFooFunctionResultForClass(String constructorParameter, String string, Integer... integers) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException;
+    public String getFooFunctionResultForClass(String constructorParameter, String string, Integer... integers);
 
     @SuppressWarnings("unused")
     public class SecretClass {
