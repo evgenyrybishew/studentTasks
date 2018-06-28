@@ -118,5 +118,10 @@ public class WordProcessorTest {
 
         result = wp.wordsStartWith("→");
         Assert.assertTrue(result.contains("→"));
+
+        result = wp.wordsStartWith("n");
+        test = doSetFromString(readFile("modules/JavaAPITasks/WordProcessor/src/test/resource/n.txt"));
+        Assert.assertTrue(result.equals(test));
+
     }
 }
