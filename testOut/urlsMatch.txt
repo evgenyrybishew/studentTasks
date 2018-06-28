@@ -1,6 +1,0 @@
-<a href="test.html">This line contains an HTML opening < bracket.</a>
-<a href="test.html">This line contains <strong>bold</strong> text.</a>
-<A HREF="test.html">This line contains <strong>bold</strong> text.</A>
-<a	href="test.html">This line contains <strong>bold</strong> text.</	a>
-<a HREF="test.html">This line contains <strong>bold</strong> text.</a>
-<ahref="test.html">This line contains <strong>bold</strong> text.</a>
